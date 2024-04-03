@@ -85,6 +85,42 @@
           letter-spacing: 2px;
           line-height: 1;
         }
+        #nav_bar_container{
+            width: 80%;
+            margin: auto;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #nav_bar_logo_container{
+            padding-top: 0.2rem;
+        }
+        #nav_bar_logo{
+            max-width: 80%;
+        }
+        #hero_text_1{
+            width: 80%;
+            margin: auto;
+            margin-top: 10rem;
+        }
+        #hero_text_right_1{
+            text-align: right;
+            padding-top: 3rem;
+            color: #6e808e;
+            font-weight: 300;
+        }
+        #hero_connect_container{
+            position: relative; width:100%;
+        }
+        #hero_connect_button{
+            position: absolute; right: 0; font-weight: 550;
+        }
+        #hero_brands_container{
+            margin-top: 4rem;
+        }
+        #hero_brands{
+            width: 43%; margin: auto;
+        }
       </style>
 
       <div id="first_space" style="background-colorr: aqua"></div>
@@ -94,17 +130,9 @@
         style="height: 50px; width: 100%; background-color: white"
       >
         <div
-          id="nav_bar_container"
-          style="
-            width: 80%;
-            margin: auto;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-          "
-        >
-          <div style="padding-top: 0.2rem">
-            <img src="pictures/logo.png" style="max-width: 80%" />
+          id="nav_bar_container">
+          <div id="nav_bar_logo_container">
+            <img id="nav_bar_logo" src="pictures/logo.png" />
           </div>
           <div style="display: flex; align-items: center">
             <div class="nav_items">HOME</div>
@@ -119,14 +147,7 @@
         </div>
       </div>
 
-      <div
-        style="
-          width: 80%;
-          margin: auto;
-          background-colorr: azure;
-          margin-top: 10rem;
-        "
-      >
+      <div id="hero_text_1">
         <div class="above_button">
           <a href="#" class="button_like">WHERE</a>
         </div>
@@ -139,14 +160,7 @@
           <a href="#" class="button_like first_yellow_buttons">MEETS AI</a>
         </div>
 
-        <div
-          style="
-            text-align: right;
-            padding-top: 3rem;
-            color: #6e808e;
-            font-weight: 300;
-          "
-        >
+        <div id="hero_text_right_1">
           Have an <b>AI idea</b> you want to discuss?<br />
           Or want to work with us in a
           <b
@@ -155,78 +169,92 @@
           >
         </div>
         <div
-          class="above_button"
-          style="position: relative; background-colorr: aqua; width: 100%"
-        >
+            id="hero_connect_container"
+          class="above_button">
           <a
+            id="hero_connect_button"
             href="#"
-            class="button_like"
-            style="position: absolute; right: 0; font-weight: 550"
-            >Connect with us</a
+            class="button_like">Connect with us</a
           >
         </div>
       </div>
 
-      <div style="background-colorr: cyan; margin-top: 4rem">
-        <div style="width: 43%; margin: auto; background-colorr: red">
+      <div id="hero_brands_container">
+        <div id="hero_brands">
           <img src="pictures/brands.png" class="img-fluid" />
         </div>
       </div>
     </section>
 
+
+
     <section
-      id="about_us"
-      style="
-        background-colorr: red;
-        margin-top: -4rem;
-        position: relative;
-        z-index: 99;
-        background-image: url('pictures/bottom_part_2.png');
-      "
-    >
+      id="about_us">
       <style>
+        #about_us{
+            margin-top: -4rem;
+            position: relative;
+            z-index: 99;
+            background-image: url('pictures/bottom_part_2.png');
+            background-color: #ECEFF6;
+        }
         .gradient-text {
           background: linear-gradient(to right, #6e808e, #b5c0c6);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
-      </style>
-      <div
-        style="
+        #about_heading{
+
           padding-top: 7rem;
           text-align: center;
           font-size: calc(1.2rem + 1.2vw);
           font-weight: bold;
-        "
-      >
+        }
+        #about_main_container{
+
+          width: 80%;
+          margin: auto;
+          margin-top: 3rem;
+          display: flex;
+        
+        }
+        #about_text_1_container{
+            padding-left: 5rem;
+            color: #778895;
+            padding-top: 4rem;
+        }
+        #about_text_1{
+            font-size: 15px; font-weight: 200;
+        }
+        #about_text_2{
+            font-weight: 500;
+            padding-top: 2rem;
+            letter-spacing: 0.07rem;
+            font-size: 18px;
+        }
+        #about_bottom__{
+            width: 100%;
+            position: absolute;
+            bottom: 1;
+            z-index:100;
+        }
+
+      </style>
+      <div id="about_heading">
         <span class="gradient-text">About Us</span>
       </div>
 
-      <div
-        style="
-          width: 80%;
-          margin: auto;
-          background-colorr: red;
-          margin-top: 3rem;
-          display: flex;
-        "
-      >
+      <div id="about_main_container">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6" style="background-colorr: pink">
+            <div class="col-lg-6" >
               <img src="pictures/bulb.png" class="img-fluid" />
             </div>
 
             <div class="col-lg-6">
-              <div
-                style="
-                  background-colorr: red;
-                  padding-left: 5rem;
-                  color: #778895;
-                  padding-top: 4rem;
-                "
-              >
-                <div style="font-size: 15px; font-weight: 100">
+              <div 
+                id="about_text_1_container">
+                <div id="about_text_1">
                   AI is changing the world, and we work as an enabler and
                   facilitator in this transformational process, by combining our
                   expertise in AI, with our extensive experience in
@@ -234,14 +262,8 @@
                   building ventures across the globe, while also honing our deep
                   tech skills.
                 </div>
-                <div
-                  style="
-                    font-weight: 500;
-                    padding-top: 2rem;
-                    letter-spacing: 0.07rem;
-                    font-size: 18px;
-                  "
-                >
+                <div 
+                    id="about_text_2">
                   At Venture Factory, we work as co-founders with anyone who can
                   make a substantial impact on the world by leveraging the power
                   of AI through entrepreneurship.
@@ -251,31 +273,23 @@
           </div>
         </div>
       </div>
-      <div
-        style="
-          width: 100%;
-          background-colorr: red;
-          position: absolute;
-          bottom: 1;
-        "
-      >
-        <img src="pictures/bottom_part_3.png" class="img-fluid" />
+      <div 
+        id="about_bottom__">
+        <img src="pictures/about_bottom_part_final.png" class="img-fluid" />
       </div>
     </section>
 
     <section
-      id="our_teams"
-      style="
-        background-image: url('pictures/teams_background_image.png');
-        position: relative;
-        z-index: 98;
-        background-repeat: no-repeat;
-        /* background-size: auto; */
-        background-position: 100% 38%;
-      "
-    >
+      id="our_teams">
 
     <style>
+        #our_teams{
+            background-image: url('pictures/teams_background_image.png');
+            position: relative;
+            z-index: 98;
+            background-repeat: no-repeat;
+            background-position: 100% 38%;
+        }
         .swipper_inner_div_1{
             width: 100%;
             margin: auto;
@@ -308,7 +322,7 @@
             font-size: 16px;
             font-weight: 200;
             color: #778895;
-            padding-bottom:4rem;
+            /* padding-bottom:4rem; */
         }
         .swiper_yellow_line{
             padding:1rem;width: 71%;margin-top: -2.35rem;margin-left: -0.9rem;
@@ -316,19 +330,28 @@
         /* .swiper-pagination-bullet {
     background-color: #fff100; 
   } */
+        #our_team_heading{
+            padding-top: 8rem;
+            text-align: center;
+            font-size: calc(1.2rem + 1.2vw);
+            font-weight: bold;
+            color: #eff2f9;
+        }
+        #our_team_swiper_main_container{
+            width: 80%; margin: auto;
+        }
+        .our_teams_image_container{
+            padding:1rem; border-radius: 10px;
+        }
+        #swiper_space_correction_our_teams{
+            padding:1rem;
+        }
     </style>
       <div
-        style="
-          padding-top: 8rem;
-          text-align: center;
-          font-size: calc(1.2rem + 1.2vw);
-          font-weight: bold;
-          color: #eff2f9;
-        "
-      >
+        id="our_team_heading">
         Our Team
       </div>
-      <div class="swiper mySwiper" style="width: 80%; margin: auto">
+      <div class="swiper mySwiper" id="our_team_swiper_main_container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <!-- 11111 -->
@@ -350,8 +373,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-6" style="background-colorr: cadetblue">
-                      <div style="padding: 1rem; border-radius: 10px">
+                    <div class="col-lg-6">
+                      <div class="our_teams_image_container" >
                         <img src="pictures/mia.png" class="img-fluid" />
                         <!-- <div class="swiper_yellow_line"> -->
                           <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -382,8 +405,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/vinay.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -416,8 +439,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/tina.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -449,8 +472,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/archita.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -482,8 +505,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/akhil.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -514,8 +537,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/chaithra.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -545,8 +568,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/jayaraj.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -577,8 +600,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container" >
                       <img src="pictures/sameer.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -590,7 +613,7 @@
             </div>
           </div>
         </div>
-        <div id="swiper_space_correction" style="padding:1rem"></div>
+        <div id="swiper_space_correction_our_teams"></div>
         <!-- <div class="swiper-button-next" ></div> -->
         <!-- <div class="swiper-button-prev" ></div> -->
         <div class="swiper-pagination" ></div>
@@ -629,73 +652,75 @@
     </section>
 
     <section
-      id="partnership_thesis"
-      style="
-        background-colorr: red;
-        margin-top: -4rem;
-        position: relative;
-        z-index: 99;
-        /* background-image: url('pictures/bottom_part_2.png'); */
-      "
-    >
+      id="partnership_thesis">
+    <style>
+        #partnership_thesis{
+            margin-top: -4rem;
+            position: relative;
+            z-index: 99;
+        }
+        #partnership_top_part{
+            width: 100%;
+            position: absolute;
+            bottom: 1;
+        }
+        #partnership_heading{
+            padding-top: 8rem;
+          text-align: center;
+          font-size: calc(1.2rem + 1.2vw);
+          font-weight: bold;
+        }
+        #partnership_main_container{
+            width: 80%;
+          margin: auto;
+          margin-top: 3rem;
+          display: flex;
+        }
+        #partnership_text_1_container{
+            padding-left: 5rem;
+            color: #778895;
+            padding-top: 3rem;
+        }
+        #partnership_text_1{
+            font-size: 15px; font-weight: 200;
+        }
+        #partnership_text_2{
+            font-weight: 200;
+            padding-top: 2rem;
+            font-size: 15px;
+        }
+        #partnership_bottom_part{
+            width: 100%;
+            position: absolute;
+            bottom: 1;
+        }
+    </style>
     <div
-        style="
-          width: 100%;
-          background-colorr: red;
-          position: absolute;
-          bottom: 1;
-          
-        "
-      >
+        id="partnership_top_part">
         <img src="pictures/thesis_top_part.png" class="img-fluid" />
       </div>
       
       <div
-        style="
-          padding-top: 8rem;
-          text-align: center;
-          font-size: calc(1.2rem + 1.2vw);
-          font-weight: bold;
-        "
-      >
+        id="partnership_heading">
         <span class="gradient-text">Partnership Thesis</span>
       </div>
 
       <div
-        style="
-          width: 80%;
-          margin: auto;
-          background-colorr: red;
-          margin-top: 3rem;
-          display: flex;
-        "
-      >
+        id="partnership_main_container">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6" style="background-colorr: pink">
+            <div class="col-lg-6">
               <img src="pictures/globe.png" class="img-fluid" />
             </div>
 
             <div class="col-lg-6">
-              <div
-                style="
-                  background-colorr: red;
-                  padding-left: 5rem;
-                  color: #778895;
-                  padding-top: 4rem;
-                "
-              >
-                <div style="font-size: 15px; font-weight: 100">
+              <div id="partnership_text_1_container">
+                <div id="partnership_text_1">
                     We believe that disruptive innovation happens at the intersection of multiple disciplines or competencies. While our expertise focuses on AI and the launching of ventures, we look to partner with co-founders who come with their own competencies. These could be domain expertise, access to data, access to certain markets or geographies or even just innovative ideas and a lot of passion for entrepreneurship & AI.
 
                 </div>
                 <div
-                  style="
-                    font-weight: 100;
-                    padding-top: 2rem;
-                    font-size: 15px;
-                  "
-                >
+                    id="partnership_text_2">
                   Many have ideas about what AI can do in their industries, or their regions, communities or networks, or with the data they have access to, and we at venturefactory.ai provide them with a complete solution to materialise and pursue these ideas by setting up a new entity along with us.
 
                 </div>
@@ -705,13 +730,7 @@
         </div>
       </div>
       <div
-        style="
-          width: 100%;
-          background-colorr: red;
-          position: absolute;
-          bottom: 1;
-        "
-      >
+        id="partnership_bottom_part">
         <img src="pictures/thesis_bottom_part.png" class="img-fluid" />
       </div>
     </section>
@@ -719,6 +738,12 @@
     <section id="offer" style="background-color:#fff100;background-image:url('pictures/offer_background.png')">
 
         <style>
+            #offer_heading{
+                padding-top: 10rem;
+                text-align: center;
+                font-size: calc(1.2rem + 1.2vw);
+                font-weight: bold;
+            }
             .offer_slide_text{
                 position: absolute; top: 0; left: 0; width: 100%;
             }
@@ -730,37 +755,49 @@
                 color:#ADADAD;
             }
             .offer_text_2{
-                padding-top:1rem;color:#6E808E;font-size:22px;font-weight:500;
+                padding-top:0.75rem;color:#6E808E;font-size:22px;font-weight:500;
             }
             .offer_text_3{
-                padding-top:1rem ; font-weight:200;font-size:12px;color:#ADADAD;padding-bottom:1rem
+                padding-top:1rem ; font-weight:200;font-size:11px;color:#ADADAD;padding-bottom:1rem
             }
             .offer_slide_text_container{
-                padding:3.5rem 1.5rem 3.5rem 4rem;
+                padding:3.5rem 0.3rem 3.5rem 4rem;
+            }
+            #offer_heading_2{
+                text-align:center;font-weight: 300;padding-bottom:2rem;
+            }
+            #offer_main_container{
+                width:90%;margin-left:auto;
+            }
+            #offer_container_2{
+                width:100%;display: flex;
+            }
+            .slider_inner_div_1{
+                position:relative;
+            }
+            #offer_bottom_part{
+                width: 100%;
+                position: absolute;
+                bottom: 1;
+                z-index:100;
             }
         </style>
 
-        <div
-        style="
-          padding-top: 10rem;
-          text-align: center;
-          font-size: calc(1.2rem + 1.2vw);
-          font-weight: bold;
-        "
-      >
+        <div id="offer_heading">
         <span class="gradient-text" >What We Offer</span>
       </div>
-      <div style="text-align:center;font-weight: 300;padding-bottom:2rem">We believe we can add a lot of value to anyone who sets out to co-found an AI venture with<br> us. Here are some of the benefits of partnering with us:</div>
+      <div id="offer_heading_2" >We believe we can add a lot of value to anyone who sets out to co-found an AI venture with<br> us. Here are some of the benefits of partnering with us:
+        </div>
 
-      <div style="width:90%;background-colorr:red;margin-left:auto">
-      <div class="swiper mySwiper2" style="width:100%;display: flex; background-colorr:rgb(163, 237, 199);">
+      <div id="offer_main_container" >
+      <div id="offer_container_2" class="swiper mySwiper2">
         <div class="swiper-wrapper" >
           <div class="swiper-slide">
             <!-- Slide 1 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container" style="padding:4rem;background-colorr:red;">
+                    <div class="offer_slide_text_container" >
                             <div class="offer_text_1">
                             01
                             </div>
@@ -779,7 +816,7 @@
           <div class="swiper-slide">
             <!-- Slide 2 -->
 
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -798,12 +835,12 @@
           </div>
           <div class="swiper-slide">
             <!-- Slide 3 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
                             <div class="offer_text_1">
-                            03
+                                03
                             </div>
                             <div class="offer_text_2" > 
                                 Funding
@@ -817,7 +854,7 @@
           </div>
           <div class="swiper-slide">
             <!-- Slide 4 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -836,7 +873,7 @@
         </div>
           <div class="swiper-slide">
             <!-- Slide 5 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -855,7 +892,7 @@
         </div>
           <div class="swiper-slide">
             <!-- Slide 6 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -874,7 +911,7 @@
         </div>
           <div class="swiper-slide">
             <!-- Slide 7 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -893,7 +930,7 @@
         </div>
           <div class="swiper-slide">
             <!-- Slide 8 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -912,7 +949,7 @@
         </div>
           <div class="swiper-slide">
             <!-- Slide 9 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -931,7 +968,7 @@
         </div>
         <div class="swiper-slide">
             <!-- Slide 10 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -950,7 +987,7 @@
         </div>
         <div class="swiper-slide" style="visibility:0">
             <!-- Slide 10 -->
-            <div style="position:relative;">
+            <div class="slider_inner_div_1">
                 <!-- <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" /> -->
                 <div class="offer_slide_text" >
                     <div class="offer_slide_text_container">
@@ -968,15 +1005,8 @@
         <div  class="swiper-pagination"></div>
       </div>
     </div>
-    <div
-        style="
-          width: 100%;
-          background-colorr: red;
-          position: absolute;
-          bottom: 1;
-          z-index:100;
-        "
-      >
+    <div 
+        id="offer_bottom_part">
         <img src="pictures/yellow_bottom_part.png" class="img-fluid" />
       </div>
 
@@ -996,15 +1026,13 @@
 
 
     <section
-    id="our_portfolio"
-    style="
-      background-color: #E4EBF1;
-      position: relative;
-      z-index: 97;
-      
-    "
-  >
+    id="our_portfolio">
   <style>
+    #our_portfolio{
+        background-color: #E4EBF1;
+        position: relative;
+        z-index: 97;
+    }
     .swiper_row_3_portfolio{
         padding-top: 1rem;
             font-size: 20px;
@@ -1012,24 +1040,38 @@
             color: #6e808e;
     }
     .portfolio_samll_image{
-        height:50px;width:50px;background-colorr:red;
+        height:50px;width:50px;
     }
-    
+    #portfolio_heading{
+        padding-top: 10rem;
+        text-align: center;
+        font-size: calc(1.2rem + 1.2vw);
+        font-weight: bold;
+        padding-bottom:1rem;
+    }
+    #portfolio_main_container{
+        width: 80%; margin: auto;
+    }
+    .portfolio_small_icon{
+        padding: 1rem; border-radius: 10px
+    }
+    #portfolio_bottom_part__{
+        width: 100%;
+        position: absolute;
+        bottom: 1;
+        z-index:100;
+    }
+    #swiper_space_correction_portfolio{
+        padding:1rem;
+    }
   </style>
 
     
     <div
-    style="
-    padding-top: 10rem;
-    text-align: center;
-    font-size: calc(1.2rem + 1.2vw);
-    font-weight: bold;
-    padding-bottom:1rem;
-    "
-    >
+    id="portfolio_heading">
     <span class="gradient-text" >Our Portfolio</span>
     </div>
-    <div class="swiper mySwiper" style="width: 80%; margin: auto">
+    <div class="swiper mySwiper" id="portfolio_main_container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <!-- 11111 -->
@@ -1051,7 +1093,7 @@
                     </div>
                   </div>
                   <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div style="padding: 1rem; border-radius: 10px">
+                    <div class="portfolio_small_icon" >
                       <img src="pictures/portfolio_1.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
                         <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1083,7 +1125,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_2.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1116,7 +1158,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_3.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1148,7 +1190,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_4.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1181,7 +1223,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_5.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1213,7 +1255,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_6.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1245,7 +1287,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div style="padding: 1rem; border-radius: 10px">
+                  <div class="portfolio_small_icon" >
                     <img src="pictures/portfolio_7.png" class="img-fluid" />
                     <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
@@ -1258,21 +1300,14 @@
         </div>
         
       </div>
-      <div id="swiper_space_correction" style="padding:1rem"></div>
+      <div id="swiper_space_correction_portfolio"></div>
       <!-- <div class="swiper-button-next" ></div> -->
       <!-- <div class="swiper-button-prev" ></div> -->
       <div class="swiper-pagination" ></div>
     </div>
 
     <div
-        style="
-          width: 100%;
-          background-colorr: red;
-          position: absolute;
-          bottom: 1;
-          z-index:100;
-        "
-      >
+        id="portfolio_bottom_part__">
         <img src="pictures/portfolio_bottom_part.png" class="img-fluid" />
       </div>
 
@@ -1303,39 +1338,158 @@
   </section>
 
   <section id="tail" style="background-color:#F0F2F8">
-    <div style="height:9rem;"></div>
-    <div style="margin:auto;width:80%;position:relative">
+    <style>
+        #tail_space_correction{
+            height:9rem;
+        }
+        #tail_main_container{
+            margin:auto;width:80%;position:relative;
+        }
+        #tail_inner_div_1{
+            position:relative;
+        }
+        #tail_box{
+            width: 100%;
+        }
+        #tail_inner_div_2{
+            position: absolute; top: 0; left: 0; width: 100%;color:rgb(13, 13, 13);z-index:11;padding:8rem 6rem;
+        }
+        #tail_inner_div_left{
+            display:flex;
+        }
+        #tail_inner_div_left_text{
+            width:40%;font-weight: 400;font-size:1.5rem;color:#6E808E;
+        }
+        #tail_text{
+            padding-bottom:2rem;
+        }
+        #tail_button{
+            background-color:#FCF7CA;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem;
+        }
+        #tail_inner_div_right{
+            width:60%;
+        }
+        #tail_inner_div_right_1{
+            padding:0rem 2rem;
+        }
+        .tail_input{
+            border:none;padding:0.3rem;outline:none;background-color:transparent;
+        }
+        .tail_label{
+            font-weight:200;
+        }
+        .tail_hr{
+            margin:0;padding-bottom:1rem;
+        }
+        #tail_after_form{
+            padding-top:1.5rem;
+        }
+        #tail_yellow_button{
+            background-color:#FFF100;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem;cursor:pointer;
+        }
+        #tail_yellow_button_a{
+            text-decoration: none;
+        }
+        #tail_main_div_2{
+            margin-top:-1.5rem;
+        }
+        #tail_space_correction_2{
+            height:7rem;
+        }
+        #tail_email_id{
+            font-size:14px;color:#6E808E
+        }
+        #tail_section_1{
+            display:flex;flex-direction: column;justify-content:center;font-size: 14px;cursor:pointer;color:#6E808E
+        }
+        #tail_section_1_inner_1{
+            font-weight:500;cursor:pointer;color:#6E808E
+        }
+        #tail_section_1_inner_2{
+            display:flex;
+        }
+        #tail_section_1_inner_2_a{
+            height:1rem;width:1rem;
+        }
+        #tail_section_1_inner_2_b{
+            padding-left:1rem;font-weight: 300;padding-top:0.08rem;
+        }
+        #tail_section_2_inner_1{
+            display:flex;
+        }
+        #tail_section_2_inner_2{
+            height:1rem;width:1rem;
+        }
+        #tail_section_2_inner_3{
+            padding-left:1rem;font-weight: 300;padding-top:0.08rem;
+        }
+        .tail_row_2{
+            font-size: 14px;
+        }
+        .tail_row_2_text{
+            display:block;font-weight:300;text-decoration: none;cursor:pointer;color:#6E808E
+        }
+        #tail_row_2_text_1{
+            display:block;font-weight:500;cursor:pointer;color:#6E808E;
+        }
+        #tail_space_3{
+            padding-top:5rem;
+        }
+        #tail_last_left{
+            display:flex;justify-content: space-between;
+        }
+        #tail_last_left_1{
+            font-weight:200;font-size: 11px;
+        }
+        #tail_last_left_2{
+            text-decoration:none;cursor:pointer;font-weight:200;font-size:11px;
+        }
+        #tail_space_5{
+            padding-top:6rem;
+        }
+        #up_arrow_1{
+            margin-left:auto; position:relative;width:3%;background-color: rgb(254, 252, 217);border-radius:50%;
+        }
+        #up_arrow_2{
+            text-decoration:none;
+        }
+        #up_arrow_3{
+            display:flex;justify-content:center;padding:0.2rem;border:2px solid white;border-radius: 50%;color:#6E808E;
+        }
+    </style>
+    <div id="tail_space_correction"></div>
+    <div id="tail_main_container">
     
-        <div style="position:relative;;background-colorr: red;">
-            <img src="pictures/tail_box.png" class="img-fluid" style="width: 100%;" />
-            <div style="position: absolute; top: 0; left: 0; width: 100%;color:rgb(13, 13, 13);z-index:11;padding:8rem 6rem ; ">
-                <div style="background-colorr: rgb(236, 222, 203);display:flex">
-                    <div style="width:40%;background-colorr:ivory;font-weight: 400;font-size:1.5rem;color:#6E808E">
-                        <div style="padding-bottom:2rem">
+        <div id="tail_inner_div_1">
+            <img id="tail_box" src="pictures/tail_box.png" class="img-fluid" />
+            <div id="tail_inner_div_2">
+                <div id="tail_inner_div_left">
+                    <div id="tail_inner_div_left_text" >
+                        <div id="tail_text" >
                             Have an <b>AI idea</b> you want to discuss?<br><b>Or</b>  want to work with us in a <b>specific region?</b>
 
                         </div>
-                        <div style="background-color:#FCF7CA;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem">
+                        <div id="tail_button">
                             We will be happy to discuss
                         </div>
                     </div>
                     
-                    <div style="width:60%;background-colorr:rgb(228, 213, 184)">
-                        <div style="padding:0rem 2rem">
+                    <div id="tail_inner_div_right" >
+                        <div id="tail_inner_div_right_1">
                             <form >
-                                <label for="name" style="font-weight:200">Name</label>
-                                <input id="name" style="border:none;padding:0.3rem;outline:none;background-color:transparent ;">
-                                <hr style="margin:0;padding-bottom:1rem">
-                                <label for="email" style="font-weight:200">Email</label>
-                                <input id="email" style="border:none;padding:0.3rem;outline:none;background-color:transparent">
-                                <hr style="margin:0;padding-bottom:1rem">
-                                <label for="message" style="font-weight:200">Message</label>
-                                <input id="messsage" style="border:none;padding:0.3rem;outline:none;background-color:transparent">
-                                <hr style="margin:0;padding-bottom:1rem">
+                                <label for="name" class="tail_label">Name</label>
+                                <input id="name" class="tail_input">
+                                <hr class="tail_hr">
+                                <label for="email" class="tail_label">Email</label>
+                                <input id="email" class="tail_input">
+                                <hr class="tail_hr">
+                                <label for="message" class="tail_label">Message</label>
+                                <input id="messsage" class="tail_input">
+                                <hr class="tail_hr">
                             </form>
-                            <div style="padding-top:1.5rem">
-                                <div style="background-color:#FFF100;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem;cursor:pointer ">
-                                    <a style="text-decoration: none;" href="#">Contact us</a>
+                            <div id="tail_after_form">
+                                <div id="tail_yellow_button">
+                                    <a id="tail_yellow_button_a" href="#">Contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -1345,64 +1499,64 @@
                 </div>
             </div>
         </div>
-        <div style="margin-top:-1.5rem">
+        <div id="tail_main_div_2" >
             <img src="pictures/venture_factory_text.png" class="img-fluid" />
         </div>
-        <div style="height:7rem"></div>
+        <div id="tail_space_correction_2"></div>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3" style="background-colorr:indianred;font-size:14px">
+                <div id="tail_email_id" class="col-md-3">
                     <div>vf@ventureway.io</div>
                     </div>
-                <div class="col-md-3" style="background-colorr:rgb(182, 144, 195);display:flex;flex-direction: column;justify-content:center;font-size: 14px;">
-                    <div style="font-weight:500">SOCIAL</div>
-                    <div style="display:flex">
-                        <div style="height:1rem;width:1rem">
+                <div id="tail_section_1" class="col-md-3">
+                    <div id="tail_section_1_inner_1">SOCIAL</div>
+                    <div id="tail_section_1_inner_2">
+                        <div id="tail_section_1_inner_2_a">
                             <img src='pictures/instagram.svg' class="img-fluid"/>
                         </div>
-                        <div style="padding-left:1rem;font-weight: 300;padding-top:0.08rem">INSTAGRAM</div>
+                        <div id="tail_section_1_inner_2_b" >INSTAGRAM</div>
                     </div>
 
-                    <div style="display:flex">
-                        <div style="height:1rem;width:1rem">
+                    <div id="tail_section_2_inner_1" >
+                        <div  id="tail_section_2_inner_2" >
                             <img src='pictures/linkedin.svg' class="img-fluid"/>
                         </div>
-                        <div style="padding-left:1rem;font-weight: 300;padding-top:0.08rem">LINKEDIN</div>
+                        <div id="tail_section_2_inner_3"  >LINKEDIN</div>
                     </div>
                     
                 </div>
-                <div class="col-md-3" style="background-colorr:rgb(195, 144, 144);font-size: 14px">
-                   <a style="display:block;font-weight:500">HOME</a>
-                   <a style="display:block;font-weight:300">ABOUT US</a>
-                   <a style="display:block;font-weight:300">PORTFOLIO</a>
+                <div  class="col-md-3 tail_row_2" >
+                   <a id="tail_row_2_text_1" >HOME</a>
+                   <a class="tail_row_2_text" >ABOUT US</a>
+                   <a class="tail_row_2_text" >PORTFOLIO</a>
                 </div>
-                <div class="col-md-3" style="background-colorr:rgb(159, 195, 144);font-size: 14px">
-                    <a style="display:block;font-weight:300">PARTNERSHIP THESIS</a>
-                   <a style="display:block;font-weight:300">SERVICES</a>
-                   <a style="display:block;font-weight:300">CONTACT US</a>
+                <div  class="col-md-3 tail_row_2" >
+                    <a class="tail_row_2_text" >PARTNERSHIP THESIS</a>
+                   <a class="tail_row_2_text" >SERVICES</a>
+                   <a class="tail_row_2_text" >CONTACT US</a>
 
                 </div>
             </div>
         </div>
-        <div style="padding-top:5rem"></div>
+        <div id="tail_space_3" style="padding-top:5rem"></div>
         <hr >
-        <div style="display:flex;justify-content: space-between;">
-            <div style="font-weight:200;font-size: 11px;">@2024 venturefactory.ai. All rights reserved.</div>
-            <a style="text-decoration:none;cursor:pointer;font-weight:200;font-size:11px">Privacy policy</a>
+        <div id="tail_last_left" >
+            <div id="tail_last_left_1" >@2024 venturefactory.ai. All rights reserved.</div>
+            <a id="tail_last_left_2" >Privacy policy</a>
         </div>
-        <div style="padding-top:6rem"></div>
+        <div id="tail_space_5"></div>
 
-        <div >
-            <div style="margin-left:auto; position:relative;width:3%;background-color: rgb(254, 252, 217);border-radius:50%">
-                <a href="#" style="text-decoration:none">
-                <span class="material-symbols-outlined" style="display:flex;justify-content:center;padding:0.2rem;border:2px solid white;border-radius: 50%;color:#6E808E">
+        
+            <div id="up_arrow_1">
+                <a id="up_arrow_2" href="#" >
+                <span id="up_arrow_3" class="material-symbols-outlined">
                     arrow_upward
                     </span>
                 </a>
             </div>
             
-        </div>
+        
         
     </div> 
         
