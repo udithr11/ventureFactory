@@ -24,7 +24,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="index.css">
 
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>venture</title>
   </head>
@@ -38,11 +40,9 @@
           background-image: url("pictures/side_yellow.png"),
             url("pictures/brain.png");
           background-repeat: no-repeat, no-repeat;
-          /* background-position: center;  */
           background-size: cover;
           background-position: 100% 1%;
           opacity: 1;
-          height: 100vh;
           position: relative;
           z-index: 100;
         }
@@ -50,6 +50,7 @@
           padding-top: 40px;
         }
         #nav_bar {
+            height: 50px; width: 100%; background-color: white;
           background-image: linear-gradient(
             to right,
             rgba(255, 255, 255, 0.65) 0%,
@@ -91,12 +92,14 @@
             height: 100%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
         #nav_bar_logo_container{
             padding-top: 0.2rem;
         }
         #nav_bar_logo{
             max-width: 80%;
+            padding-top:0.5rem;
         }
         #hero_text_1{
             width: 80%;
@@ -119,22 +122,29 @@
             margin-top: 4rem;
         }
         #hero_brands{
-            width: 43%; margin: auto;
+            width: 43%; margin: auto;padding-bottom:3rem;
+        }
+        #nav_items_container{
+            display: flex; align-items: center
+        }
+        #hamburger{
+            
+            display:none;
+            color:white;
+            font-weight: 600;
+            font-size:3rem;
         }
       </style>
 
-      <div id="first_space" style="background-colorr: aqua"></div>
+      <div id="first_space"></div>
 
       <div
-        id="nav_bar"
-        style="height: 50px; width: 100%; background-color: white"
-      >
-        <div
-          id="nav_bar_container">
+        id="nav_bar">
+        <div id="nav_bar_container">
           <div id="nav_bar_logo_container">
             <img id="nav_bar_logo" src="pictures/logo.png" />
           </div>
-          <div style="display: flex; align-items: center">
+          <div id="nav_items_container" >
             <div class="nav_items">HOME</div>
             <div class="nav_items">ABOUT US</div>
 
@@ -143,6 +153,11 @@
             <div class="nav_items">WHAT WE OFFER</div>
             <div class="nav_items">OUR POSTFOLIO</div>
             <div class="nav_items">CONTACT US</div>
+          </div>
+          <div >
+            <span id="hamburger" class="material-symbols-outlined">
+                menu
+                </span>
           </div>
         </div>
       </div>
