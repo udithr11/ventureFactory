@@ -24,127 +24,34 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index_media.css" />
 
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <title>venture</title>
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
   </head>
   <body>
     <section id="first">
-      <style>
-        body {
-          font-family: "Lexend", sans-serif;
-        }
-        #first {
-          background-image: url("pictures/side_yellow.png"),
-            url("pictures/brain.png");
-          background-repeat: no-repeat, no-repeat;
-          background-size: cover;
-          background-position: 100% 1%;
-          opacity: 1;
-          position: relative;
-          z-index: 100;
-        }
-        #first_space {
-          padding-top: 40px;
-        }
-        #nav_bar {
-            height: 50px; width: 100%; background-color: white;
-          background-image: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0.65) 0%,
-            rgba(255, 255, 255, 0.5) 50%,
-            rgba(228, 235, 241, 1) 100%
-          );
-        }
-        .nav_items {
-          padding-left: 1.5rem;
-          font-size: calc(0.4rem + 0.4vw);
-          letter-spacing: 2px;
-          font-weight: 300;
-          color: #6e808e;
-        }
-        .button_like {
-          display: inline-block;
-          padding: 0.5rem 1rem;
-          background-color: #e4ebf1;
-          color: #6e808e;
-          text-decoration: none;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-        }
-        .above_button {
-          width: fit-content;
-          padding-top: 0.5rem;
-        }
-        .first_yellow_buttons {
-          background-image: linear-gradient(to right, #ffffff 0%, #fff100 100%);
-          font-size: 26px;
-          font-weight: 700;
-          letter-spacing: 2px;
-          line-height: 1;
-        }
-        #nav_bar_container{
-            width: 80%;
-            margin: auto;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        #nav_bar_logo_container{
-            padding-top: 0.2rem;
-        }
-        #nav_bar_logo{
-            max-width: 80%;
-            padding-top:0.5rem;
-        }
-        #hero_text_1{
-            width: 80%;
-            margin: auto;
-            margin-top: 10rem;
-        }
-        #hero_text_right_1{
-            text-align: right;
-            padding-top: 3rem;
-            color: #6e808e;
-            font-weight: 300;
-        }
-        #hero_connect_container{
-            position: relative; width:100%;
-        }
-        #hero_connect_button{
-            position: absolute; right: 0; font-weight: 550;
-        }
-        #hero_brands_container{
-            margin-top: 4rem;
-        }
-        #hero_brands{
-            width: 43%; margin: auto;padding-bottom:3rem;
-        }
-        #nav_items_container{
-            display: flex; align-items: center
-        }
-        #hamburger{
-            
-            display:none;
-            color:white;
-            font-weight: 600;
-            font-size:3rem;
-        }
-      </style>
-
       <div id="first_space"></div>
 
-      <div
-        id="nav_bar">
+      <div id="nav_bar">
         <div id="nav_bar_container">
           <div id="nav_bar_logo_container">
             <img id="nav_bar_logo" src="pictures/logo.png" />
           </div>
-          <div id="nav_items_container" >
+          <div id="nav_items_container">
             <div class="nav_items">HOME</div>
             <div class="nav_items">ABOUT US</div>
 
@@ -154,10 +61,8 @@
             <div class="nav_items">OUR POSTFOLIO</div>
             <div class="nav_items">CONTACT US</div>
           </div>
-          <div >
-            <span id="hamburger" class="material-symbols-outlined">
-                menu
-                </span>
+          <div>
+            <span id="hamburger" class="material-symbols-outlined"> menu </span>
           </div>
         </div>
       </div>
@@ -183,13 +88,9 @@
             We will be happy to discuss.</b
           >
         </div>
-        <div
-            id="hero_connect_container"
-          class="above_button">
-          <a
-            id="hero_connect_button"
-            href="#"
-            class="button_like">Connect with us</a
+        <div id="hero_connect_container" class="above_button">
+          <a id="hero_connect_button" href="#" class="button_like"
+            >Connect with us</a
           >
         </div>
       </div>
@@ -199,62 +100,49 @@
           <img src="pictures/brands.png" class="img-fluid" />
         </div>
       </div>
+
+  
+<div class="container-fluid">
+  <div class="slider_mobile_only autoplayy1">
+    <div class="mobile_swiper" >
+        <img src="pictures/brand1.png" class="img-fluid"/>
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand2.png" class="img-fluid"/>
+
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand3.png" class="img-fluid"/>
+
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand4.png" class="img-fluid" style="padding-left:0rem"/>
+
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand5.png" class="img-fluid"/>
+
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand6.png" class="img-fluid"/>
+
+    </div>
+    <div class="mobile_swiper">
+        <img src="pictures/brand7.png" class="img-fluid" style="padding-left:1rem"/>
+
+    </div>
+  </div>
+</div>
+
+  <div id="mobile_about_us_top_part" style="width:100%;background-color:red;display:none">
+    <img src="pictures/mobile_about_us_top_part.png" class="img-fluid" object-fit="cover"/>
+</div>
+
+  
     </section>
 
-
-
-    <section
-      id="about_us">
-      <style>
-        #about_us{
-            margin-top: -4rem;
-            position: relative;
-            z-index: 99;
-            background-image: url('pictures/bottom_part_2.png');
-            background-color: #ECEFF6;
-        }
-        .gradient-text {
-          background: linear-gradient(to right, #6e808e, #b5c0c6);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-        #about_heading{
-
-          padding-top: 7rem;
-          text-align: center;
-          font-size: calc(1.2rem + 1.2vw);
-          font-weight: bold;
-        }
-        #about_main_container{
-
-          width: 80%;
-          margin: auto;
-          margin-top: 3rem;
-          display: flex;
+    <section id="about_us">
         
-        }
-        #about_text_1_container{
-            padding-left: 5rem;
-            color: #778895;
-            padding-top: 4rem;
-        }
-        #about_text_1{
-            font-size: 15px; font-weight: 200;
-        }
-        #about_text_2{
-            font-weight: 500;
-            padding-top: 2rem;
-            letter-spacing: 0.07rem;
-            font-size: 18px;
-        }
-        #about_bottom__{
-            width: 100%;
-            position: absolute;
-            bottom: 1;
-            z-index:100;
-        }
-
-      </style>
       <div id="about_heading">
         <span class="gradient-text">About Us</span>
       </div>
@@ -262,13 +150,12 @@
       <div id="about_main_container">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6" >
+            <div class="col-lg-6">
               <img src="pictures/bulb.png" class="img-fluid" />
             </div>
 
             <div class="col-lg-6">
-              <div 
-                id="about_text_1_container">
+              <div id="about_text_1_container">
                 <div id="about_text_1">
                   AI is changing the world, and we work as an enabler and
                   facilitator in this transformational process, by combining our
@@ -277,8 +164,7 @@
                   building ventures across the globe, while also honing our deep
                   tech skills.
                 </div>
-                <div 
-                    id="about_text_2">
+                <div id="about_text_2">
                   At Venture Factory, we work as co-founders with anyone who can
                   make a substantial impact on the world by leveraging the power
                   of AI through entrepreneurship.
@@ -288,129 +174,23 @@
           </div>
         </div>
       </div>
-      <div 
-        id="about_bottom__">
+      <div id="about_bottom__">
         <img src="pictures/about_bottom_part_final.png" class="img-fluid" />
       </div>
     </section>
 
-    <section
-      id="our_teams">
-
-    <style>
-        #our_teams{
-            background-image: url('pictures/teams_background_image.png');
-            position: relative;
-            z-index: 98;
-            background-repeat: no-repeat;
-            background-position: 100% 38%;
-        }
-        .swipper_inner_div_1{
-            width: 100%;
-            margin: auto;
-            padding-top: 3rem;
-            display:flex;
-        }
-        .swiper_row_1{
-            padding: 1rem 1.8rem;
-            /* padding:2rem; */
-        }
-        .swiper_row_2{
-
-            padding: 4rem 4rem 2rem 4rem;
-            background: linear-gradient(
-                to left,
-                #f5f8fe 100%,
-                #f5f8fe 0%
-            );
-            border-radius: 10px;
-            height: 100%;
-        }
-        .swiper_row_3{
-            padding-top: 3rem;
-            font-size: 25px;
-            font-weight: 600;
-            color: #6e808e;
-        }
-        .swiper_para{
-            padding-top: 1rem;
-            font-size: 16px;
-            font-weight: 200;
-            color: #778895;
-            /* padding-bottom:4rem; */
-        }
-        .swiper_yellow_line{
-            padding:1rem;width: 71%;margin-top: -2.35rem;margin-left: -0.9rem;
-        }
-        /* .swiper-pagination-bullet {
-    background-color: #fff100; 
-  } */
-        #our_team_heading{
-            padding-top: 8rem;
-            text-align: center;
-            font-size: calc(1.2rem + 1.2vw);
-            font-weight: bold;
-            color: #eff2f9;
-        }
-        #our_team_swiper_main_container{
-            width: 80%; margin: auto;
-        }
-        .our_teams_image_container{
-            padding:1rem; border-radius: 10px;
-        }
-        #swiper_space_correction_our_teams{
-            padding:1rem;
-        }
-    </style>
-      <div
-        id="our_team_heading">
-        Our Team
-      </div>
+    <section id="our_teams">
+      <div id="our_team_heading">Our Team</div>
       <div class="swiper mySwiper" id="our_team_swiper_main_container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <!-- 11111 -->
             <div class="swipper_inner_div_1">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div
-                      class="col-lg-6 swiper_row_1">
-                      <div class="swiper_row_2">
-                        <div class="swiper_row_3">
-                          Mia
-                        </div>
-                        <div class="swiper_para">
-                          Mia brings in our AI and Data Science expertise,
-                          equipped with education from Stanford, MIT and Harvard
-                          over the years, and prior telecommunications & software
-                          development experience from the likes of Qualcomm and
-                          Cognizant.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="our_teams_image_container" >
-                        <img src="pictures/mia.png" class="img-fluid" />
-                        <!-- <div class="swiper_yellow_line"> -->
-                          <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                          <!-- </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          <div class="swiper-slide">
-            <!-- 22222 -->
-            <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Vinay
-                      </div>
+                      <div class="swiper_row_3">Mia</div>
                       <div class="swiper_para">
                         Mia brings in our AI and Data Science expertise,
                         equipped with education from Stanford, MIT and Harvard
@@ -421,11 +201,40 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
+                      <img src="pictures/mia.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- 22222 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="swiper_row_3">Vinay</div>
+                      <div class="swiper_para">
+                        Mia brings in our AI and Data Science expertise,
+                        equipped with education from Stanford, MIT and Harvard
+                        over the years, and prior telecommunications & software
+                        development experience from the likes of Qualcomm and
+                        Cognizant.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="our_teams_image_container">
                       <img src="pictures/vinay.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -438,12 +247,9 @@
             <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Tina
-                      </div>
+                      <div class="swiper_row_3">Tina</div>
                       <div class="swiper_para">
                         Tina leads and manages all our operations across the
                         different ventures we build. With extensive experience
@@ -455,11 +261,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/tina.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -471,12 +277,9 @@
             <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1" >
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Archita
-                      </div>
+                      <div class="swiper_row_3">Archita</div>
                       <div class="swiper_para">
                         Archita is the unseen hand that keeps every venture
                         going, ensuring that every task is completed in time by
@@ -488,11 +291,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/archita.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -504,13 +307,10 @@
             <!-- 555555 -->
             <div class="swipper_inner_div_1">
               <div class="container-fluid">
-                <div class="row ">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Akhil
-                      </div>
+                      <div class="swiper_row_3">Akhil</div>
                       <div class="swiper_para">
                         With both entrepreneurial and managerial experience,
                         Akhil works alongside Archita and the founding teams,
@@ -521,11 +321,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/akhil.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -537,12 +337,9 @@
             <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Chaithra
-                      </div>
+                      <div class="swiper_row_3">Chaithra</div>
                       <div class="swiper_para">
                         Chaithra keeps her eye on our money. As a qualified
                         accounting and finance professional, Chaithra ensures
@@ -553,11 +350,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/chaithra.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -569,12 +366,9 @@
             <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Jayaraj
-                      </div>
+                      <div class="swiper_row_3">Jayaraj</div>
                       <div class="swiper_para">
                         Jayaraj is our in-house creative designer, who ensures
                         that each venture has a unique visual identity that's
@@ -584,11 +378,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/jayaraj.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -597,15 +391,12 @@
           </div>
           <div class="swiper-slide">
             <!-- 88888 -->
-            <div class="swipper_inner_div_1" >
+            <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                      <div class="swiper_row_3">
-                        Sameer
-                      </div>
+                      <div class="swiper_row_3">Sameer</div>
                       <div class="swiper_para">
                         With a flair for communicating effectively and
                         comprehensively, both offline and online, Sameer
@@ -616,11 +407,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="our_teams_image_container" >
+                    <div class="our_teams_image_container">
                       <img src="pictures/sameer.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -631,12 +422,8 @@
         <div id="swiper_space_correction_our_teams"></div>
         <!-- <div class="swiper-button-next" ></div> -->
         <!-- <div class="swiper-button-prev" ></div> -->
-        <div class="swiper-pagination" ></div>
-
-        
-        
+        <div class="swiper-pagination"></div>
       </div>
-      
 
       <!-- Swiper JS -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -655,7 +442,7 @@
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
-            backgroundColor:'yellow',
+            backgroundColor: "yellow",
           },
           navigation: {
             nextEl: ".swiper-button-next",
@@ -663,65 +450,62 @@
           },
         });
       </script>
-      <div style="padding:3rem"></div>
+      <div style="padding: 3rem"></div>
     </section>
 
-    <section
-      id="partnership_thesis">
-    <style>
-        #partnership_thesis{
-            margin-top: -4rem;
-            position: relative;
-            z-index: 99;
+    <section id="partnership_thesis">
+      <style>
+        #partnership_thesis {
+          margin-top: -4rem;
+          position: relative;
+          z-index: 99;
         }
-        #partnership_top_part{
-            width: 100%;
-            position: absolute;
-            bottom: 1;
+        #partnership_top_part {
+          width: 100%;
+          position: absolute;
+          bottom: 1;
         }
-        #partnership_heading{
-            padding-top: 8rem;
+        #partnership_heading {
+          padding-top: 8rem;
           text-align: center;
           font-size: calc(1.2rem + 1.2vw);
           font-weight: bold;
         }
-        #partnership_main_container{
-            width: 80%;
+        #partnership_main_container {
+          width: 80%;
           margin: auto;
           margin-top: 3rem;
           display: flex;
         }
-        #partnership_text_1_container{
-            padding-left: 5rem;
-            color: #778895;
-            padding-top: 3rem;
+        #partnership_text_1_container {
+          padding-left: 5rem;
+          color: #778895;
+          padding-top: 3rem;
         }
-        #partnership_text_1{
-            font-size: 15px; font-weight: 200;
+        #partnership_text_1 {
+          font-size: 15px;
+          font-weight: 200;
         }
-        #partnership_text_2{
-            font-weight: 200;
-            padding-top: 2rem;
-            font-size: 15px;
+        #partnership_text_2 {
+          font-weight: 200;
+          padding-top: 2rem;
+          font-size: 15px;
         }
-        #partnership_bottom_part{
-            width: 100%;
-            position: absolute;
-            bottom: 1;
+        #partnership_bottom_part {
+          width: 100%;
+          position: absolute;
+          bottom: 1;
         }
-    </style>
-    <div
-        id="partnership_top_part">
+      </style>
+      <div id="partnership_top_part">
         <img src="pictures/thesis_top_part.png" class="img-fluid" />
       </div>
-      
-      <div
-        id="partnership_heading">
+
+      <div id="partnership_heading">
         <span class="gradient-text">Partnership Thesis</span>
       </div>
 
-      <div
-        id="partnership_main_container">
+      <div id="partnership_main_container">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6">
@@ -731,857 +515,821 @@
             <div class="col-lg-6">
               <div id="partnership_text_1_container">
                 <div id="partnership_text_1">
-                    We believe that disruptive innovation happens at the intersection of multiple disciplines or competencies. While our expertise focuses on AI and the launching of ventures, we look to partner with co-founders who come with their own competencies. These could be domain expertise, access to data, access to certain markets or geographies or even just innovative ideas and a lot of passion for entrepreneurship & AI.
-
+                  We believe that disruptive innovation happens at the
+                  intersection of multiple disciplines or competencies. While
+                  our expertise focuses on AI and the launching of ventures, we
+                  look to partner with co-founders who come with their own
+                  competencies. These could be domain expertise, access to data,
+                  access to certain markets or geographies or even just
+                  innovative ideas and a lot of passion for entrepreneurship &
+                  AI.
                 </div>
-                <div
-                    id="partnership_text_2">
-                  Many have ideas about what AI can do in their industries, or their regions, communities or networks, or with the data they have access to, and we at venturefactory.ai provide them with a complete solution to materialise and pursue these ideas by setting up a new entity along with us.
-
+                <div id="partnership_text_2">
+                  Many have ideas about what AI can do in their industries, or
+                  their regions, communities or networks, or with the data they
+                  have access to, and we at venturefactory.ai provide them with
+                  a complete solution to materialise and pursue these ideas by
+                  setting up a new entity along with us.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        id="partnership_bottom_part">
+      <div id="partnership_bottom_part">
         <img src="pictures/thesis_bottom_part.png" class="img-fluid" />
       </div>
     </section>
 
-    <section id="offer" style="background-color:#fff100;background-image:url('pictures/offer_background.png')">
+    <section
+      id="offer"
+      style="
+        background-color: #fff100;
+        background-image: url('pictures/offer_background.png');
+      "
+    >
+      <style>
+      </style>
 
-        <style>
-            #offer_heading{
-                padding-top: 10rem;
-                text-align: center;
-                font-size: calc(1.2rem + 1.2vw);
-                font-weight: bold;
-            }
-            .offer_slide_text{
-                position: absolute; top: 0; left: 0; width: 100%;
-            }
-            .offer_slide_image{
-                max-width: 110%;
-                padding-bottom:2rem;
-            }
-            .offer_text_1{
-                color:#ADADAD;
-            }
-            .offer_text_2{
-                padding-top:0.75rem;color:#6E808E;font-size:22px;font-weight:500;
-            }
-            .offer_text_3{
-                padding-top:1rem ; font-weight:200;font-size:11px;color:#ADADAD;padding-bottom:1rem
-            }
-            .offer_slide_text_container{
-                padding:3.5rem 0.3rem 3.5rem 4rem;
-            }
-            #offer_heading_2{
-                text-align:center;font-weight: 300;padding-bottom:2rem;
-            }
-            #offer_main_container{
-                width:90%;margin-left:auto;
-            }
-            #offer_container_2{
-                width:100%;display: flex;
-            }
-            .slider_inner_div_1{
-                position:relative;
-            }
-            #offer_bottom_part{
-                width: 100%;
-                position: absolute;
-                bottom: 1;
-                z-index:100;
-            }
-        </style>
-
-        <div id="offer_heading">
-        <span class="gradient-text" >What We Offer</span>
+      <div id="offer_heading">
+        <span class="gradient-text">What We Offer</span>
       </div>
-      <div id="offer_heading_2" >We believe we can add a lot of value to anyone who sets out to co-found an AI venture with<br> us. Here are some of the benefits of partnering with us:
-        </div>
-
-      <div id="offer_main_container" >
-      <div id="offer_container_2" class="swiper mySwiper2">
-        <div class="swiper-wrapper" >
-          <div class="swiper-slide">
-            <!-- Slide 1 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container" >
-                            <div class="offer_text_1">
-                            01
-                            </div>
-                            <div class="offer_text_2" > 
-                                AI Expertise
-                            </div>
-                            <div class="offer_text_3">
-                                venturefactory.ai is clearly focused on building AI ventures, and our expertise in AI is what drives this focus. In all our ventures, we take primary responsibility in building and implementing the AI solutions that usually form the core of the venture.
-                            </div>
-                    </div>
-                </div>
-            </div>
-            
-        
-            </div>
-          <div class="swiper-slide">
-            <!-- Slide 2 -->
-
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            02
-                            </div>
-                            <div class="offer_text_2" > 
-                                Entrepreneurial Experience
-                            </div>
-                            <div class="offer_text_3">
-                                We've been building companies in diverse sectors, across different continents, over the last 2 decades. We are now at a stage where we can do it efficiently at scale, and we are sure this de-risks and simplifies the entrepreneurial journey for our co-founders.
-                            </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <!-- Slide 3 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                                03
-                            </div>
-                            <div class="offer_text_2" > 
-                                Funding
-                            </div>
-                            <div class="offer_text_3">
-                                Being early stage investors ourselves, while we do not raise or try to raise external funds for ventures under venturefactory.ai, we bring in the funds and resources required to boot strap every portfolio company under this initiative. Financial participation from our co-founders is not a prerequisite.
-                            </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <!-- Slide 4 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            04
-                            </div>
-                            <div class="offer_text_2" > 
-                                Creative Design Support
-                            </div>
-                            <div class="offer_text_3">
-                                We understand the importance of branding and designing at the initial stages of a venture, and our in-house design team helps every portfolio venture of ours with its design requirements.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-          <div class="swiper-slide">
-            <!-- Slide 5 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            05
-                            </div>
-                            <div class="offer_text_2" > 
-                                Administrative Support
-                            </div>
-                            <div class="offer_text_3">
-                                We see many founders struggling to focus on operations, because of administrative requirements. Our team manages almost all administrative aspects of most of the ventures in our portfolio.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-          <div class="swiper-slide">
-            <!-- Slide 6 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            06
-                            </div>
-                            <div class="offer_text_2" > 
-                                Finance & Accounting Support
-                            </div>
-                            <div class="offer_text_3">
-                                Another aspect that distracts and stresses many operations or tech focused founders is finance management or accounting. Our team usually manages that for our portfolio companies. With comprehensive MIS and monitoring being made possible for all founders.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-          <div class="swiper-slide">
-            <!-- Slide 7 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            07
-                            </div>
-                            <div class="offer_text_2" > 
-                                Zero Risk Entrepreneurship
-                            </div>
-                            <div class="offer_text_3">
-                                We partner with co-founders who find it difficult to invest or bring in capital for their equity, as long as they can add value in kind. This gives them an opportunity to pursue entrepreneurship with no financial risk, and with many other administrative risks mitigated.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-          <div class="swiper-slide">
-            <!-- Slide 8 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            08
-                            </div>
-                            <div class="offer_text_2" > 
-                                Global Market Access
-                            </div>
-                            <div class="offer_text_3">
-                                Venture Factory is setting AI ventures around the world, with many of these ventures having the capability to cater to their regional markets effectively. This network provides a global market access of all our portfolio ventures.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-          <div class="swiper-slide">
-            <!-- Slide 9 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            09
-                            </div>
-                            <div class="offer_text_2" > 
-                                Incubation Expertise
-                            </div>
-                            <div class="offer_text_3">
-                                Venturefactory.ai is promoted by Venture Way, a unified global startup ecosystem that has been incubating startups since 2015. Through Ideatory, an idea stage startup studio and Alphabay its predecessor, we have been trying to master the art and science of incubating ventures, and insights from this journey bolster every venture under venturefactory.ai
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <!-- Slide 10 -->
-            <div class="slider_inner_div_1">
-                <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" />
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            <div class="offer_text_1">
-                            10
-                            </div>
-                            <div class="offer_text_2" > 
-                                Synergistic Network
-                            </div>
-                            <div class="offer_text_3">
-                                Our framework allows for synergistic global partnerships between our different portfolio companies such that the different ventures under venturefactory.ai benefit from each other. Market access, domain expertise, regional expertise, data access etc. are shared across the different ventures such that everyone benefits out of the synergistic global AI powerhouse that venturefactory.ai strives to be.
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide" style="visibility:0">
-            <!-- Slide 10 -->
-            <div class="slider_inner_div_1">
-                <!-- <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" /> -->
-                <div class="offer_slide_text" >
-                    <div class="offer_slide_text_container">
-                            
-                            <div class="offer_text_2" > 
-                                 <div style="height:1rem;width:1rem"></div>
-                            </div>
-                            
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div style="padding-top:2rem"></div>
-        <div  class="swiper-pagination"></div>
+      <div style="width:80%;margin:auto">
+      <div id="offer_heading_2">
+        We believe we can add a lot of value to anyone who sets out to co-found
+        an AI venture with<br class="desktop_breaker"/>
+        us. Here are some of the benefits of partnering with us:
       </div>
     </div>
-    <div 
-        id="offer_bottom_part">
+
+      <div id="offer_main_container">
+        <div id="offer_container_2" class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- Slide 1 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">01</div>
+                    <div class="offer_text_2">AI Expertise</div>
+                    <div class="offer_text_3">
+                      venturefactory.ai is clearly focused on building AI
+                      ventures, and our expertise in AI is what drives this
+                      focus. In all our ventures, we take primary responsibility
+                      in building and implementing the AI solutions that usually
+                      form the core of the venture.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 2 -->
+
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">02</div>
+                    <div class="offer_text_2">Entrepreneurial Experience</div>
+                    <div class="offer_text_3">
+                      We've been building companies in diverse sectors, across
+                      different continents, over the last 2 decades. We are now
+                      at a stage where we can do it efficiently at scale, and we
+                      are sure this de-risks and simplifies the entrepreneurial
+                      journey for our co-founders.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 3 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">03</div>
+                    <div class="offer_text_2">Funding</div>
+                    <div class="offer_text_3">
+                      Being early stage investors ourselves, while we do not
+                      raise or try to raise external funds for ventures under
+                      venturefactory.ai, we bring in the funds and resources
+                      required to boot strap every portfolio company under this
+                      initiative. Financial participation from our co-founders
+                      is not a prerequisite.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 4 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">04</div>
+                    <div class="offer_text_2">Creative Design Support</div>
+                    <div class="offer_text_3">
+                      We understand the importance of branding and designing at
+                      the initial stages of a venture, and our in-house design
+                      team helps every portfolio venture of ours with its design
+                      requirements.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 5 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">05</div>
+                    <div class="offer_text_2">Administrative Support</div>
+                    <div class="offer_text_3">
+                      We see many founders struggling to focus on operations,
+                      because of administrative requirements. Our team manages
+                      almost all administrative aspects of most of the ventures
+                      in our portfolio.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 6 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">06</div>
+                    <div class="offer_text_2">Finance & Accounting Support</div>
+                    <div class="offer_text_3">
+                      Another aspect that distracts and stresses many operations
+                      or tech focused founders is finance management or
+                      accounting. Our team usually manages that for our
+                      portfolio companies. With comprehensive MIS and monitoring
+                      being made possible for all founders.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 7 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">07</div>
+                    <div class="offer_text_2">Zero Risk Entrepreneurship</div>
+                    <div class="offer_text_3">
+                      We partner with co-founders who find it difficult to
+                      invest or bring in capital for their equity, as long as
+                      they can add value in kind. This gives them an opportunity
+                      to pursue entrepreneurship with no financial risk, and
+                      with many other administrative risks mitigated.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 8 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">08</div>
+                    <div class="offer_text_2">Global Market Access</div>
+                    <div class="offer_text_3">
+                      Venture Factory is setting AI ventures around the world,
+                      with many of these ventures having the capability to cater
+                      to their regional markets effectively. This network
+                      provides a global market access of all our portfolio
+                      ventures.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 9 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">09</div>
+                    <div class="offer_text_2">Incubation Expertise</div>
+                    <div class="offer_text_3">
+                      Venturefactory.ai is promoted by Venture Way, a unified
+                      global startup ecosystem that has been incubating startups
+                      since 2015. Through Ideatory, an idea stage startup studio
+                      and Alphabay its predecessor, we have been trying to
+                      master the art and science of incubating ventures, and
+                      insights from this journey bolster every venture under
+                      venturefactory.ai
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- Slide 10 -->
+              <div class="slider_inner_div_1">
+                <img
+                  class="offer_slide_image"
+                  src="pictures/offer_container.png"
+                  class="img-fluid"
+                />
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_1">10</div>
+                    <div class="offer_text_2">Synergistic Network</div>
+                    <div class="offer_text_3">
+                      Our framework allows for synergistic global partnerships
+                      between our different portfolio companies such that the
+                      different ventures under venturefactory.ai benefit from
+                      each other. Market access, domain expertise, regional
+                      expertise, data access etc. are shared across the
+                      different ventures such that everyone benefits out of the
+                      synergistic global AI powerhouse that venturefactory.ai
+                      strives to be.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide desktop_breaker" style="visibility: 0">
+              <!-- Slide 10 -->
+              <div class="slider_inner_div_1">
+                <!-- <img class='offer_slide_image' src="pictures/offer_container.png" class="img-fluid" /> -->
+                <div class="offer_slide_text">
+                  <div class="offer_slide_text_container">
+                    <div class="offer_text_2">
+                      <div style="height: 1rem; width: 1rem"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="padding-top: 2rem"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div id="offer_bottom_part">
         <img src="pictures/yellow_bottom_part.png" class="img-fluid" />
       </div>
 
       <script>
-        var swiper2 = new Swiper(".mySwiper2", {
-          slidesPerView: 3,
-          mousewheel: true,
-          spaceBetween: 30,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
+        var swiper2;
+    
+        function initSwiper() {
+            if (window.innerWidth < 800) {
+                swiper2 = new Swiper(".mySwiper2", {
+                    slidesPerView: 1,
+                    mousewheel: true,
+                    spaceBetween: 30,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            } else if (window.innerWidth < 1250) {
+                swiper2 = new Swiper(".mySwiper2", {
+                    slidesPerView: 2,
+                    mousewheel: true,
+                    spaceBetween: 30,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            } else {
+                swiper2 = new Swiper(".mySwiper2", {
+                    slidesPerView: 3,
+                    mousewheel: true,
+                    spaceBetween: 30,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            }
+        }
+    
+        // Initialize swiper on page load
+        initSwiper();
+    
+        // Reinitialize swiper when window is resized
+        window.addEventListener('resize', function () {
+            // Destroy swiper instance
+            swiper2.destroy(true, true);
+            // Reinitialize swiper
+            initSwiper();
         });
-      </script>
-
+    </script>
+    
+    
     </section>
 
+    <section id="our_portfolio">
+     
 
-    <section
-    id="our_portfolio">
-  <style>
-    #our_portfolio{
-        background-color: #E4EBF1;
-        position: relative;
-        z-index: 97;
-    }
-    .swiper_row_3_portfolio{
-        padding-top: 1rem;
-            font-size: 20px;
-            font-weight: 400;
-            color: #6e808e;
-    }
-    .portfolio_samll_image{
-        height:50px;width:50px;
-    }
-    #portfolio_heading{
-        padding-top: 10rem;
-        text-align: center;
-        font-size: calc(1.2rem + 1.2vw);
-        font-weight: bold;
-        padding-bottom:1rem;
-    }
-    #portfolio_main_container{
-        width: 80%; margin: auto;
-    }
-    .portfolio_small_icon{
-        padding: 1rem; border-radius: 10px
-    }
-    #portfolio_bottom_part__{
-        width: 100%;
-        position: absolute;
-        bottom: 1;
-        z-index:100;
-    }
-    #swiper_space_correction_portfolio{
-        padding:1rem;
-    }
-  </style>
-
-    
-    <div
-    id="portfolio_heading">
-    <span class="gradient-text" >Our Portfolio</span>
-    </div>
-    <div class="swiper mySwiper" id="portfolio_main_container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <!-- 11111 -->
-          <div class="swipper_inner_div_1">
+      <div id="portfolio_heading">
+        <span class="gradient-text">Our Portfolio</span>
+      </div>
+      <div class="swiper mySwiper" id="portfolio_main_container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!-- 11111 -->
+            <div class="swipper_inner_div_1">
               <div class="container-fluid">
                 <div class="row">
-                  <div
-                    class="col-lg-6 swiper_row_1">
+                  <div class="col-lg-6 swiper_row_1">
                     <div class="swiper_row_2">
-                        <div class="portfolio_samll_image" >
-                        <img src="pictures/small_1.png"/>
-                    </div>
-                      <div class="swiper_row_3_portfolio">
-                        BeyondZ
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_1.png" />
                       </div>
+                      <div class="swiper_row_3_portfolio">BeyondZ</div>
                       <div class="swiper_para">
-                        BeyondZ offers tech solutions, consulting services and custom tech development and implementation in Artificial Intelligence, enabling clients in their digital transformation through AI.
+                        BeyondZ offers tech solutions, consulting services and
+                        custom tech development and implementation in Artificial
+                        Intelligence, enabling clients in their digital
+                        transformation through AI.
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6" style="background-colorr: cadetblue">
-                    <div class="portfolio_small_icon" >
+                    <div class="portfolio_small_icon">
                       <img src="pictures/portfolio_1.png" class="img-fluid" />
                       <!-- <div class="swiper_yellow_line"> -->
-                        <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                        <!-- </div> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        <div class="swiper-slide">
-          <!-- 22222 -->
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  class="col-lg-6 swiper_row_1">
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_2.png"/>
-                    </div>
-                    
-                    <div class="swiper_row_3_portfolio">
+          <div class="swiper-slide">
+            <!-- 22222 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_2.png" />
+                      </div>
+
+                      <div class="swiper_row_3_portfolio">
                         Limner Consulting
-                    </div>
-                    <div class="swiper_para">
-                        Limner offers comprehensive Business Intelligence services and supports startups with data focused business process reengineering, data analytics, and visualisation solutions to enhance operational insights and data driven decision making.
+                      </div>
+                      <div class="swiper_para">
+                        Limner offers comprehensive Business Intelligence
+                        services and supports startups with data focused
+                        business process reengineering, data analytics, and
+                        visualisation solutions to enhance operational insights
+                        and data driven decision making.
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_2.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_2.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
                       <!-- </div> -->
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <!-- 333333 -->
+          <div class="swiper-slide">
+            <!-- 333333 -->
 
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  class="col-lg-6 swiper_row_1">
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_3.png"/>
-                    </div>
-                    
-                    <div class="swiper_row_3_portfolio">
-                        Raizer.ai
-                    </div>
-                    <div class="swiper_para">
-                        Raizer.ai specialises in AI training, consulting, and custom AI solutions for the US market, enhancing clients' operational efficiency and competitive edge, and guiding businesses through the complexities of digital transformation through AI.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_3.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
-                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                      <!-- </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <!-- 4444 -->
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  class="col-lg-6 swiper_row_1" >
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_4.png"/>
-                    </div>
-                    
-                    <div class="swiper_row_3_portfolio">
-                        Motodata.ai
-                    </div>
-                    <div class="swiper_para">
-                        Motodata.ai explores some of the most impactful applications of data from automotive IOT devices, in order to bolster public security, governance, regulatory compliance, traffic management and other smart city initiatives.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_4.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
-                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                      <!-- </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_3.png" />
+                      </div>
 
-        <div class="swiper-slide">
-          <!-- 555555 -->
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row ">
-                <div
-                  class="col-lg-6 swiper_row_1">
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_5.png"/>
+                      <div class="swiper_row_3_portfolio">Raizer.ai</div>
+                      <div class="swiper_para">
+                        Raizer.ai specialises in AI training, consulting, and
+                        custom AI solutions for the US market, enhancing
+                        clients' operational efficiency and competitive edge,
+                        and guiding businesses through the complexities of
+                        digital transformation through AI.
+                      </div>
                     </div>
-                    
-                    <div class="swiper_row_3_portfolio">
-                        Termsheeter
-                    </div>
-                    <div class="swiper_para">
-                        Termsheeter.com is a venture dedicated to demystifying term sheets and shareholder agreements for startups and angel investors. It aims to help them intuitively understand and create term sheets for deals using Generative AI.
+                  </div>
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_3.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_5.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- 4444 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_4.png" />
+                      </div>
+
+                      <div class="swiper_row_3_portfolio">Motodata.ai</div>
+                      <div class="swiper_para">
+                        Motodata.ai explores some of the most impactful
+                        applications of data from automotive IOT devices, in
+                        order to bolster public security, governance, regulatory
+                        compliance, traffic management and other smart city
+                        initiatives.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_4.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
                       <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
                       <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <!-- 555555 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_5.png" />
+                      </div>
+
+                      <div class="swiper_row_3_portfolio">Termsheeter</div>
+                      <div class="swiper_para">
+                        Termsheeter.com is a venture dedicated to demystifying
+                        term sheets and shareholder agreements for startups and
+                        angel investors. It aims to help them intuitively
+                        understand and create term sheets for deals using
+                        Generative AI.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_5.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- 666666 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_6.png" />
+                      </div>
+
+                      <div class="swiper_row_3_portfolio">GetAI Foundation</div>
+                      <div class="swiper_para">
+                        The GetAI Foundation supports inclusive 'Growth and
+                        Empowerment through AI' by training underprivileged
+                        women, youth and students to integrate them into the AI
+                        workforce.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_6.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- 777777 -->
+            <div class="swipper_inner_div_1">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 swiper_row_1">
+                    <div class="swiper_row_2">
+                      <div class="portfolio_samll_image">
+                        <img src="pictures/small_7.png" />
+                      </div>
+
+                      <div class="swiper_row_3_portfolio">Dfence.ai</div>
+                      <div class="swiper_para">
+                        Dfence.ai was set up along with domain experts in the
+                        defence sector to explore and research on the use of
+                        Artificial Intelligence in defence equipment and
+                        technologies.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" style="background-colorr: cadetblue">
+                    <div class="portfolio_small_icon">
+                      <img src="pictures/portfolio_7.png" class="img-fluid" />
+                      <!-- <div class="swiper_yellow_line"> -->
+                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
+                      <!-- </div> -->
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <!-- 666666 -->
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  class="col-lg-6 swiper_row_1">
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_6.png"/>
-                    </div>
-                    
-                    <div class="swiper_row_3_portfolio">
-                        GetAI Foundation
-                    </div>
-                    <div class="swiper_para">
-                        The GetAI Foundation supports inclusive 'Growth and Empowerment through AI' by training underprivileged women, youth and students to integrate them into the AI workforce.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_6.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
-                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                      <!-- </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <!-- 777777 -->
-          <div class="swipper_inner_div_1">
-            <div class="container-fluid">
-              <div class="row">
-                <div
-                  class="col-lg-6 swiper_row_1">
-                  <div class="swiper_row_2">
-                    <div class="portfolio_samll_image" >
-                        <img src="pictures/small_7.png"/>
-                    </div>
-                    
-                    <div class="swiper_row_3_portfolio">
-                        Dfence.ai
-                    </div>
-                    <div class="swiper_para">
-                        Dfence.ai was set up along with domain experts in the defence sector to explore and research on the use of Artificial Intelligence in defence equipment and technologies.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6" style="background-colorr: cadetblue">
-                  <div class="portfolio_small_icon" >
-                    <img src="pictures/portfolio_7.png" class="img-fluid" />
-                    <!-- <div class="swiper_yellow_line"> -->
-                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                      <!-- </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        <div id="swiper_space_correction_portfolio"></div>
+        <!-- <div class="swiper-button-next" ></div> -->
+        <!-- <div class="swiper-button-prev" ></div> -->
+        <div class="swiper-pagination"></div>
       </div>
-      <div id="swiper_space_correction_portfolio"></div>
-      <!-- <div class="swiper-button-next" ></div> -->
-      <!-- <div class="swiper-button-prev" ></div> -->
-      <div class="swiper-pagination" ></div>
-    </div>
 
-    <div
-        id="portfolio_bottom_part__">
+      <div id="portfolio_bottom_part__">
         <img src="pictures/portfolio_bottom_part.png" class="img-fluid" />
       </div>
 
-    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          mousewheel: true,
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        mousewheel: true,
+          autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            backgroundColor: "yellow",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </section>
 
-        autoplay: {
-          delay: 4500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          backgroundColor:'yellow',
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </section>
-
-  <section id="tail" style="background-color:#F0F2F8">
-    <style>
-        #tail_space_correction{
-            height:9rem;
-        }
-        #tail_main_container{
-            margin:auto;width:80%;position:relative;
-        }
-        #tail_inner_div_1{
-            position:relative;
-        }
-        #tail_box{
-            width: 100%;
-        }
-        #tail_inner_div_2{
-            position: absolute; top: 0; left: 0; width: 100%;color:rgb(13, 13, 13);z-index:11;padding:8rem 6rem;
-        }
-        #tail_inner_div_left{
-            display:flex;
-        }
-        #tail_inner_div_left_text{
-            width:40%;font-weight: 400;font-size:1.5rem;color:#6E808E;
-        }
-        #tail_text{
-            padding-bottom:2rem;
-        }
-        #tail_button{
-            background-color:#FCF7CA;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem;
-        }
-        #tail_inner_div_right{
-            width:60%;
-        }
-        #tail_inner_div_right_1{
-            padding:0rem 2rem;
-        }
-        .tail_input{
-            border:none;padding:0.3rem;outline:none;background-color:transparent;
-        }
-        .tail_label{
-            font-weight:200;
-        }
-        .tail_hr{
-            margin:0;padding-bottom:1rem;
-        }
-        #tail_after_form{
-            padding-top:1.5rem;
-        }
-        #tail_yellow_button{
-            background-color:#FFF100;padding:0.5rem 1rem;width:fit-content;border-radius:10px;font-size:1.1rem;cursor:pointer;
-        }
-        #tail_yellow_button_a{
-            text-decoration: none;
-        }
-        #tail_main_div_2{
-            margin-top:-1.5rem;
-        }
-        #tail_space_correction_2{
-            height:7rem;
-        }
-        #tail_email_id{
-            font-size:14px;color:#6E808E
-        }
-        #tail_section_1{
-            display:flex;flex-direction: column;justify-content:center;font-size: 14px;cursor:pointer;color:#6E808E
-        }
-        #tail_section_1_inner_1{
-            font-weight:500;cursor:pointer;color:#6E808E
-        }
-        #tail_section_1_inner_2{
-            display:flex;
-        }
-        #tail_section_1_inner_2_a{
-            height:1rem;width:1rem;
-        }
-        #tail_section_1_inner_2_b{
-            padding-left:1rem;font-weight: 300;padding-top:0.08rem;
-        }
-        #tail_section_2_inner_1{
-            display:flex;
-        }
-        #tail_section_2_inner_2{
-            height:1rem;width:1rem;
-        }
-        #tail_section_2_inner_3{
-            padding-left:1rem;font-weight: 300;padding-top:0.08rem;
-        }
-        .tail_row_2{
-            font-size: 14px;
-        }
-        .tail_row_2_text{
-            display:block;font-weight:300;text-decoration: none;cursor:pointer;color:#6E808E
-        }
-        #tail_row_2_text_1{
-            display:block;font-weight:500;cursor:pointer;color:#6E808E;
-        }
-        #tail_space_3{
-            padding-top:5rem;
-        }
-        #tail_last_left{
-            display:flex;justify-content: space-between;
-        }
-        #tail_last_left_1{
-            font-weight:200;font-size: 11px;
-        }
-        #tail_last_left_2{
-            text-decoration:none;cursor:pointer;font-weight:200;font-size:11px;
-        }
-        #tail_space_5{
-            padding-top:6rem;
-        }
-        #up_arrow_1{
-            margin-left:auto; position:relative;width:3%;background-color: rgb(254, 252, 217);border-radius:50%;
-        }
-        #up_arrow_2{
-            text-decoration:none;
-        }
-        #up_arrow_3{
-            display:flex;justify-content:center;padding:0.2rem;border:2px solid white;border-radius: 50%;color:#6E808E;
-        }
-    </style>
-    <div id="tail_space_correction"></div>
-    <div id="tail_main_container">
-    
-        <div id="tail_inner_div_1">
-            <img id="tail_box" src="pictures/tail_box.png" class="img-fluid" />
-            <div id="tail_inner_div_2">
-                <div id="tail_inner_div_left">
-                    <div id="tail_inner_div_left_text" >
-                        <div id="tail_text" >
-                            Have an <b>AI idea</b> you want to discuss?<br><b>Or</b>  want to work with us in a <b>specific region?</b>
-
-                        </div>
-                        <div id="tail_button">
-                            We will be happy to discuss
-                        </div>
+    <section id="tail" style="background-color: #f0f2f8">
+      <style>
+      </style>
+      <div id="tail_space_correction"></div>
+      <div class="tail_main_container">
+        <div  id="tail_inner_div_1">
+          <img id="tail_box" src="pictures/tail_box.png" class="img-fluid" />
+          <div id="tail_inner_div_2">
+            <div id="tail_inner_div_left">
+              <div id="tail_inner_div_left_text">
+                <div id="tail_text">
+                  Have an <b>AI idea</b> you want to discuss?<br /><b>Or</b>
+                  want to work with us in a <b>specific region?</b>
+                </div>
+                <div id="tail_after_form_1">
+                    <div class="tail_yellow_button_1">
+                      <a class="tail_yellow_button_a_1" href="#">We will be happy to discuss.</a>
                     </div>
+                  </div>
+              </div>
+
+              <div id="tail_inner_div_right">
+                <div id="tail_inner_div_right_1">
+                  <form>
+                    <label for="name" class="tail_label">Name</label>
+                    <input id="name" class="tail_input" />
+                    <hr class="tail_hr" />
+                    <label for="email" class="tail_label">Email</label>
+                    <input id="email" class="tail_input" />
+                    <hr class="tail_hr" />
+                    <label for="message" class="tail_label">Message</label>
+                    <input id="messsage" class="tail_input" />
+                    <hr class="tail_hr" />
+                  </form>
+                  
+                  <div id="tail_after_form">
+                    <div class="tail_yellow_button">
+                      <a class="tail_yellow_button_a" href="#">Contact us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+            <div class="tail_main_container_mobile" >
+                <div id="tail_inner_div_1_mobile" style="width:100%">
+                    <img src="pictures/tail_mobile_picture.png" class="img-fluid" style="position:relative;width:100%"/>
+                </div>
+                <div style="padding:3rem;position:absolute;top:0;left:0;height:100%;width:100%">
+                    <div style="width:100%;height:100%">
+                        <div id="tail_text_mobile">
+                        Have an <b>AI idea</b> you want to discuss?<br /><b>Or</b>
+                        want to work with us in a <b>specific region?</b>
+                        </div>
+                        <div style="height:1rem">
+                        </div>
+                        <div class="tail_yellow_button_1" >
+                            <a class="tail_yellow_button_a_1"  href="#">We will be happy to discuss.</a>
+                        </div>
+                        
                     
-                    <div id="tail_inner_div_right" >
-                        <div id="tail_inner_div_right_1">
-                            <form >
+                        <div style="padding-top:1rem">
+                            <form>
                                 <label for="name" class="tail_label">Name</label>
-                                <input id="name" class="tail_input">
-                                <hr class="tail_hr">
+                                <input id="name" class="tail_input" />
+                                <hr class="tail_hr" />
                                 <label for="email" class="tail_label">Email</label>
-                                <input id="email" class="tail_input">
-                                <hr class="tail_hr">
+                                <input id="email" class="tail_input" />
+                                <hr class="tail_hr" />
                                 <label for="message" class="tail_label">Message</label>
-                                <input id="messsage" class="tail_input">
-                                <hr class="tail_hr">
+                                <input id="messsage" class="tail_input" />
+                                <hr class="tail_hr" />
                             </form>
+                            
                             <div id="tail_after_form">
-                                <div id="tail_yellow_button">
-                                    <a id="tail_yellow_button_a" href="#">Contact us</a>
+                                <div class="tail_yellow_button">
+                                <a class="tail_yellow_button_a" href="#">Contact us</a>
                                 </div>
                             </div>
                         </div>
-                    
-                    
+                           
+                        
                     </div>
+
+                    
                 </div>
             </div>
-        </div>
-        <div id="tail_main_div_2" >
-            <img src="pictures/venture_factory_text.png" class="img-fluid" />
+
+        
+
+        <div id="tail_main_div_2">
+          <img src="pictures/venture_factory_text.png" class="img-fluid" />
         </div>
         <div id="tail_space_correction_2"></div>
 
         <div class="container-fluid">
-            <div class="row">
-                <div id="tail_email_id" class="col-md-3">
-                    <div>vf@ventureway.io</div>
-                    </div>
-                <div id="tail_section_1" class="col-md-3">
-                    <div id="tail_section_1_inner_1">SOCIAL</div>
-                    <div id="tail_section_1_inner_2">
-                        <div id="tail_section_1_inner_2_a">
-                            <img src='pictures/instagram.svg' class="img-fluid"/>
-                        </div>
-                        <div id="tail_section_1_inner_2_b" >INSTAGRAM</div>
-                    </div>
-
-                    <div id="tail_section_2_inner_1" >
-                        <div  id="tail_section_2_inner_2" >
-                            <img src='pictures/linkedin.svg' class="img-fluid"/>
-                        </div>
-                        <div id="tail_section_2_inner_3"  >LINKEDIN</div>
-                    </div>
-                    
-                </div>
-                <div  class="col-md-3 tail_row_2" >
-                   <a id="tail_row_2_text_1" >HOME</a>
-                   <a class="tail_row_2_text" >ABOUT US</a>
-                   <a class="tail_row_2_text" >PORTFOLIO</a>
-                </div>
-                <div  class="col-md-3 tail_row_2" >
-                    <a class="tail_row_2_text" >PARTNERSHIP THESIS</a>
-                   <a class="tail_row_2_text" >SERVICES</a>
-                   <a class="tail_row_2_text" >CONTACT US</a>
-
-                </div>
+          <div class="row">
+            <div id="tail_email_id" class="col-md-3">
+              <div>vf@ventureway.io</div>
             </div>
+            <div id="tail_section_1" class="col-md-3">
+              <div id="tail_section_1_inner_1">SOCIAL</div>
+              <div id="tail_section_1_inner_2">
+                <div id="tail_section_1_inner_2_a">
+                  <img src="pictures/instagram.svg" class="img-fluid" />
+                </div>
+                <div id="tail_section_1_inner_2_b">INSTAGRAM</div>
+              </div>
+
+              <div id="tail_section_2_inner_1">
+                <div id="tail_section_2_inner_2">
+                  <img src="pictures/linkedin.svg" class="img-fluid" />
+                </div>
+                <div id="tail_section_2_inner_3">LINKEDIN</div>
+              </div>
+            </div>
+            <div class="col-md-3 tail_row_2">
+              <a id="tail_row_2_text_1">HOME</a>
+              <a class="tail_row_2_text">ABOUT US</a>
+              <a class="tail_row_2_text">PORTFOLIO</a>
+            </div>
+            <div class="col-md-3 tail_row_2">
+              <a class="tail_row_2_text">PARTNERSHIP THESIS</a>
+              <a class="tail_row_2_text">SERVICES</a>
+              <a class="tail_row_2_text">CONTACT US</a>
+            </div>
+          </div>
         </div>
-        <div id="tail_space_3" style="padding-top:5rem"></div>
-        <hr >
-        <div id="tail_last_left" >
-            <div id="tail_last_left_1" >@2024 venturefactory.ai. All rights reserved.</div>
-            <a id="tail_last_left_2" >Privacy policy</a>
+        <div id="tail_space_3" style="padding-top: 5rem"></div>
+        <hr />
+        <div id="tail_last_left">
+          <div id="tail_last_left_1">
+            @2024 venturefactory.ai. All rights reserved.
+          </div>
+          <a id="tail_last_left_2">Privacy policy</a>
         </div>
         <div id="tail_space_5"></div>
 
-        
-            <div id="up_arrow_1">
-                <a id="up_arrow_2" href="#" >
-                <span id="up_arrow_3" class="material-symbols-outlined">
-                    arrow_upward
-                    </span>
-                </a>
-            </div>
-            
-        
-        
-    </div> 
-        
-        
+        <div id="up_arrow_1">
+          <a id="up_arrow_2" href="#">
+            <span id="up_arrow_3" class="material-symbols-outlined">
+              arrow_upward
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
 
 
-  </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     
-
+    <script>
     
-  </body>
+    $(document).ready(function(){
+      $('.autoplayy1').slick({
+        slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: '',
+        nextArrow: ''
+      });
+    });
+    
+    </script>
+ </body>
 </html>

@@ -1,0 +1,186 @@
+
+
+
+@media (max-width: 1300px) {
+    .nav_items{
+        padding-left:1rem !important;
+        letter-spacing: 1px !important;
+    }
+    #tail_inner_div_2{
+        padding:6rem 6rem !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    #offer_main_container{
+        width:100% !important;
+        margin-left: auto !important;
+    }
+    .offer_slide_image{
+        max-width: 85% !important;
+    }
+    .offer_slide_text_container{
+        padding:6rem 7rem 4rem 5rem !important;
+    }
+    .offer_slide_text{
+        width:90% !important;
+    }
+    #tail_inner_div_2{
+        padding:4rem 4rem !important;
+    }
+}
+@media (max-width: 1150px) {
+    #tail_inner_div_2{
+        padding:3rem 3rem !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    #nav_items_container{
+        display:none !important;
+    }
+    #hamburger{
+        display:flex !important;
+    }
+    #hero_text_1{
+        display:flex !important;
+        align-items:center !important;
+        flex-direction:column !important;
+        margin-top: 5rem !important;
+    }
+    #first{
+        background-position: center !important; 
+
+    }
+    #hero_text_right_1{
+        text-align: center !important;
+        padding-top:17rem !important;
+        font-size:16px !important;
+        padding-bottom:1rem !important;
+    }
+    #hero_connect_container{
+        display:flex;
+        justify-content:center;
+    }
+    #hero_connect_button{
+        position:relative !important;
+    }
+    #hero_brands{
+        display:none !important;
+    }
+    .slider_mobile_only{
+        display:flex !important;
+    }
+    #hero_brands_container{
+        display:none !important;
+    }
+    #about_text_1_container{
+        padding-left:0rem !important;
+        text-align:center !important;
+    }
+    #about_bottom__{
+        display:none !important;
+    }
+    .our_teams_image_container{
+        order:1 !important;
+    }
+    .swiper_row_2{
+        padding:1.5rem !important;
+    }
+    .swiper_row_3{
+        padding-top:0rem !important;
+    }
+    .swiper_row_1{
+        height:18rem !important;
+    }
+    .swiper_para{
+        font-size: 13px !important;
+    }
+    #our_team_heading{
+        padding-top:5rem !important;
+    }
+    #about_text_2{
+        padding-bottom:2rem !important;
+    }
+    #partnership_text_1_container{
+        padding-left:0rem !important;
+        text-align:center !important;
+    }
+    
+    .desktop_breaker{
+        display:none !important;
+    }
+    #offer_heading{
+        padding-top:6rem !important;
+    }
+    #offer_main_container{
+        width:100% !important;
+        margin: auto !important;
+    }
+    .offer_slide_image{
+        max-width: 100% !important;
+    }
+    .offer_slide_text_container{
+        padding:3.5rem 3.3rem 3.5rem 4rem !important;
+    }
+    #about_heading{
+        padding-top:5rem !
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    #tail_inner_div_2{
+        padding:2rem 3rem !important;
+    }
+    #tail_yellow_button_a_1{
+        font-size:13px !important;
+    }
+    #tail_yellow_button_a{
+        font-size:13px !important;
+
+    }
+}
+
+@media(max-width:800px){
+    #first{
+        background-image: url("pictures/hero_mobile_background_1.png") , url("pictures/hero_mobile_background_2.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center,  bottom; 
+    }
+    #offer_main_container{
+        margin-left:auto !important;
+        width:90% !important;
+    }
+    #swiper_space_correction_portfolio{
+        padding:3rem !important;
+    }
+    .swiper_row_2{
+        height:19rem !important;
+    }
+    #portfolio_heading{
+        padding-top:6rem !important;
+    }
+    #tail_inner_div_1{
+        display:none !important;
+    }
+    .tail_main_container_mobile{
+        display:flex !important;
+    }
+    #tail_inner_div_1{
+        display:none !important;
+    }
+    #swiper_space_correction_our_teams {
+        padding:2rem !important;
+    }
+    .offer_slide_text_container {
+        padding:2rem 3rem 1rem 2.5rem !important;
+
+    }
+    .offer_text_3{
+        padding-top:0.3rem !important;
+    }
+
+}
