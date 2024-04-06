@@ -78,9 +78,7 @@
         padding-left:0rem !important;
         text-align:center !important;
     }
-    #about_bottom__{
-        display:none !important;
-    }
+    
     .our_teams_image_container{
         order:1 !important;
     }
@@ -139,7 +137,34 @@
     }
     #tail_yellow_button_a{
         font-size:13px !important;
+    }
+    #tail_col_1{
+        order:1 !important;
+    }
+    #tail_col_1 a{
+        padding-top:1rem;
+    }
+    #tail_col_2{
+        order:2 !important;
+    }
+    #tail_col_2 a{
+        padding-top:1rem !important;
+    }
+    #tail_email_id{
+        order:3 !important;        padding:2rem 1rem!important
 
+    }
+    #tail_section_1{
+        order:4 !important;
+    }
+    #tail_section_1 a{
+        padding-top:1rem !important;
+    }
+    #tail_section_1_inner_1{
+        padding-bottom:1rem !important;
+    }
+    #partnership_text_2{
+        padding-bottom:2rem !important;
     }
 }
 

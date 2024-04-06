@@ -32,6 +32,10 @@ body {
     font-weight: 300;
     color: #6e808e;
   }
+  .nav_items a{
+    text-decoration: none;
+    color:#6E808E;
+  }
   .button_like {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -40,11 +44,12 @@ body {
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: default;
   }
   .above_button {
     width: fit-content;
     padding-top: 0.5rem;
+
   }
   .first_yellow_buttons {
     background-image: linear-gradient(to right, #ffffff 0%, #fff100 100%);
@@ -87,6 +92,7 @@ body {
     position: absolute;
     right: 0;
     font-weight: 550;
+    cursor:pointer;
   }
   #hero_brands_container {
     margin-top: 4rem;
@@ -135,7 +141,7 @@ body {
     margin-top: -4rem;
     position: relative;
     z-index: 99;
-    background-image: url("pictures/bottom_part_2.png");
+    /* background-image: url("pictures/bottom_part_2.png"); */
     background-color: #eceff6;
   }
   .gradient-text {
@@ -175,6 +181,15 @@ body {
     position: absolute;
     bottom: 1;
     z-index: 100;
+    margin-top:-0.3rem;
+  }
+  #about_top {
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+    z-index: 100;
+    margin-top:-1.3rem;
+    display:none;
   }
 
 
@@ -306,6 +321,7 @@ background-color: #fff100;
     position: absolute;
     bottom: 1;
     z-index: 100;
+    margin-top:-0.3rem;
   }
 
 
@@ -346,11 +362,14 @@ background-color: #fff100;
     position: absolute;
     bottom: 1;
     z-index: 100;
+    margin-top:-0.3rem
   }
   #swiper_space_correction_portfolio {
     padding: 1rem;
   }
-
+  #partnership_bottom_part{
+    margin-top:-0.3rem;
+  }
 
 
   #tail_space_correction {
@@ -573,3 +592,44 @@ background-color: #fff100;
   }
 
 
+  #partnership_thesis {
+    /* margin-top: -4rem; */
+    position: relative;
+    z-index: 99;
+  }
+  #partnership_top_part {
+    width: 100%;
+    position: absolute;
+    margin-top:-1.5rem;
+  }
+  #partnership_heading {
+    padding-top: 8rem;
+    text-align: center;
+    font-size: calc(1.2rem + 1.2vw);
+    font-weight: bold;
+  }
+  #partnership_main_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+  }
+  #partnership_text_1_container {
+    padding-left: 5rem;
+    color: #778895;
+    padding-top: 3rem;
+  }
+  #partnership_text_1 {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  #partnership_text_2 {
+    font-weight: 200;
+    padding-top: 2rem;
+    font-size: 15px;
+  }
+  #partnership_bottom_part {
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+  }
