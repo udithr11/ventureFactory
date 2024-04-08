@@ -308,6 +308,7 @@ background-color: #fff100;
     font-weight: 300;
     padding-bottom: 2rem;
     font-size: calc(0.7rem + 0.6vw);
+    color:#6E808E
 
   }
   #offer_main_container {
@@ -469,11 +470,14 @@ background-color: #fff100;
     border-radius: 10px;
     font-size: 1.1rem;
     cursor: pointer;
+    display:flex;
   }
   .tail_yellow_button_a {
     text-decoration: none;
     color:#6E808E;
     font-size: calc(0.6rem + 0.6vw);
+    display:flex;
+
 
   }
   .tail_yellow_button_a_1 {
@@ -558,10 +562,11 @@ background-color: #fff100;
     font-size: 11px;
   }
   #tail_last_left_2 {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
     font-weight: 200;
     font-size: 11px;
+    color:#6E808E;
   }
   #tail_space_5 {
     padding-top: 6rem;
