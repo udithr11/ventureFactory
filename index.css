@@ -10,11 +10,14 @@ body {
     opacity: 1;
     position: relative;
     z-index: 100;
+    /* min-height: 100vh; */
   }
   #first_space {
     padding-top: 40px;
   }
   #nav_bar {
+    position:fixed;
+    z-index:899;
     height: 50px;
     width: 100%;
     background-color: white;
@@ -67,7 +70,7 @@ body {
     align-items: center;
   }
   #nav_bar_logo_container {
-    padding-top: 0.2rem;
+    padding-top: 0.28rem;
   }
   #nav_bar_logo {
     max-width: 80%;
@@ -95,12 +98,12 @@ body {
     cursor:pointer;
   }
   #hero_brands_container {
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
   #hero_brands {
     width: 43%;
     margin: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   #nav_items_container {
     display: flex;
@@ -111,6 +114,7 @@ body {
     color: white;
     font-weight: 600;
     font-size: 3rem;
+    cursor:pointer;
   }
   .mobile_swiper {
     padding-left:3.5rem
@@ -188,7 +192,7 @@ body {
     position: absolute;
     bottom: 1;
     z-index: 100;
-    margin-top:-1.3rem;
+    margin-top:-3rem;
     display:none;
   }
 
@@ -201,7 +205,7 @@ body {
     position: relative;
     z-index: 98;
     background-repeat: no-repeat;
-    background-position: 100% 38%;
+    background-position: 100% 63%;
   }
   .swipper_inner_div_1 {
     width: 100%;
@@ -211,7 +215,7 @@ body {
   }
   .swiper_row_1 {
     padding: 1rem 1.8rem;
-    order:2
+    /* order:1 */
   }
   .swiper_row_2 {
     padding: 4rem 4rem 2rem 4rem;
@@ -255,6 +259,7 @@ background-color: #fff100;
   .our_teams_image_container {
     padding: 1rem;
     border-radius: 10px;
+    order:2 ;
   }
   #swiper_space_correction_our_teams {
     padding: 1rem;
@@ -320,7 +325,7 @@ background-color: #fff100;
     width: 100%;
     position: absolute;
     bottom: 1;
-    z-index: 100;
+    z-index: 99;
     margin-top:-0.3rem;
   }
 
@@ -366,9 +371,6 @@ background-color: #fff100;
   }
   #swiper_space_correction_portfolio {
     padding: 1rem;
-  }
-  #partnership_bottom_part{
-    margin-top:-0.3rem;
   }
 
 
@@ -542,6 +544,7 @@ background-color: #fff100;
     font-weight: 500;
     cursor: pointer;
     color: #6e808e;
+    text-decoration:none;
   }
   #tail_space_3 {
     padding-top: 5rem;
@@ -566,7 +569,7 @@ background-color: #fff100;
   #up_arrow_1 {
     margin-left: auto;
     position: relative;
-    width: 3%;
+    width: 2rem;
     background-color: rgb(254, 252, 217);
     border-radius: 50%;
   }
@@ -632,4 +635,11 @@ background-color: #fff100;
     width: 100%;
     position: absolute;
     bottom: 1;
+    margin-top:-0.3rem;
+
+  }
+  #our_team_bottom_part {
+    width: 100%;
+    position: absolute;
+    margin-top:-4rem;
   }

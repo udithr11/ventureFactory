@@ -28,6 +28,9 @@
     #tail_inner_div_2{
         padding:4rem 4rem !important;
     }
+    #our_team_bottom_part{
+        margin-top:-3.3rem !important;
+    }
 }
 @media (max-width: 1150px) {
     #tail_inner_div_2{
@@ -36,6 +39,12 @@
 }
 
 @media (max-width: 1100px) {
+    #nav_bar{
+        background-image:none !important;
+        background-color:transparent !important;
+        position: relative !important;
+    }
+
     #nav_items_container{
         display:none !important;
     }
@@ -80,7 +89,7 @@
     }
     
     .our_teams_image_container{
-        order:1 !important;
+        /* order:1 !important; */
     }
     .swiper_row_2{
         padding:1.5rem !important;
@@ -89,6 +98,7 @@
         padding-top:0rem !important;
     }
     .swiper_row_1{
+        order:2 !important;
         height:18rem !important;
     }
     .swiper_para{
@@ -166,6 +176,15 @@
     #partnership_text_2{
         padding-bottom:2rem !important;
     }
+    #our_team_bottom_part{
+        margin-top:-2.8rem !important;
+    }
+}
+@media (max-width: 900px) {
+    #about_top{
+        display:block !important;
+        margin-top:-2.2rem !important;
+    }
 }
 
 @media(max-width:800px){
@@ -201,11 +220,22 @@
         padding:2rem !important;
     }
     .offer_slide_text_container {
-        padding:2rem 3rem 1rem 2.5rem !important;
+        padding:3rem 3rem 1rem 3rem !important;
 
     }
     .offer_text_3{
         padding-top:0.3rem !important;
+    }
+    #our_team_bottom_part{
+        margin-top:-2.5rem !important;
+    }
+}
+@media(max-width:600px){
+    #our_team_bottom_part{
+        margin-top:-1.5rem !important;
+    }
+    #about_top{
+        margin-top:-1rem !important;
     }
 
 }

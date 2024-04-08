@@ -40,9 +40,54 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
   </head>
   <body>
+    <section id="dropdown" style="min-height:100vh;max-height: 100vh;">
+
+      <style>
+        #dropdown{
+          display:none;
+          background-image: linear-gradient(to top, #F5F8FE 0%, #F5F8FE 100%);
+
+        }
+        #dropdown_inner{
+          padding-top:3rem;text-align: center;
+        }
+        #dropdown_inner a{
+          display:block;
+          padding-top:3rem;
+          text-decoration: none;
+          color:#6E808E;
+        }
+        #close_button{
+          padding-top:2rem;
+          display:flex;justify-content: flex-end;padding-right:3rem;color:#6E808E;cursor:pointer;
+
+        }
+      </style>
+
+      <div id="close_button">
+        <span onclick="close_btn()"  class="material-symbols-outlined">
+          close
+          </span>
+      </div>
+
+      <div id="dropdown_inner" >
+        <a onclick="close_btn()" href="#first">HOME</a>
+        <a onclick="close_btn()" href="#about_us___">ABOUT US</a>
+        <a onclick="close_btn()" href="#our_teams___"> OUR TEAM</a>
+        <a onclick="close_btn()" href='#partnership_thesis'>PARTNERSHIP THESIS</a>
+        <a onclick="close_btn()" href="#offer__">WHAT WE OFFER</a>
+        <a onclick="close_btn()" href="#our_portfolio__">OUR PORTFOLIO</a>
+        <a onclick="close_btn()" href="#tail__">CONTACT US</a>
+      </div>
+
+      </div>
+
+    </section>
+
     <section id="first">
       <div id="first_space"></div>
 
@@ -53,23 +98,23 @@
           </div>
           <div id="nav_items_container">
             <div class="nav_items">
-              <a href="#">HOME</a>
+              <a href="#first">HOME</a>
               </div>
             <div class="nav_items">
-              <a href="#">              ABOUT US
+              <a href="#about_us___">   ABOUT US
               </a>
             </div>
 
-            <div class="nav_items"><a href="#"> OUR TEAM</a>
+            <div  class="nav_items"><a href="#our_teams___"> OUR TEAM</a>
               
              </div>
-            <div class="nav_items"><a href="#">PARTNERSHIP THESIS</a></div>
-            <div class="nav_items"><a href="#">WHAT WE OFFER</a></div>
-            <div class="nav_items"> <a href="#">OUR POSTFOLIO</a></div>
-            <div class="nav_items"> <a href="#">CONTACT US</a></div>
+            <div class="nav_items"><a href="#partnership_thesis">PARTNERSHIP THESIS</a></div>
+            <div class="nav_items"><a href="#offer__">WHAT WE OFFER</a></div>
+            <div class="nav_items"> <a href="#our_portfolio__">OUR PORTFOLIO</a></div>
+            <div class="nav_items"> <a href="#tail__">CONTACT US</a></div>
           </div>
           <div>
-            <span id="hamburger" class="material-symbols-outlined"> menu </span>
+            <span id="hamburger" onclick="hamburger()" class="material-symbols-outlined"> menu </span>
           </div>
         </div>
       </div>
@@ -140,19 +185,22 @@
     </div>
   </div>
 </div>
+<div style="padding-top:3rem"></div>
 
-  <div id="mobile_about_us_top_part" style="width:100%;background-color:red;display:none">
-    <img src="pictures/mobile_about_us_top_part.png" class="img-fluid" object-fit="cover"/>
-</div>
+ 
 
 <div id="about_top">
   <img src="pictures/about_top_part.png" class="img-fluid" />
 </div>
+
     </section>
 
     <section id="about_us">
+
         
       <div id="about_heading">
+        <div  style="background-colorr:red;"><div id="about_us___" style="height:1px;width:1px;padding-top:5rem"></div></div>
+
         <span class="gradient-text">About Us</span>
       </div>
 
@@ -189,6 +237,7 @@
     </section>
 
     <section id="our_teams">
+      <div  style="padding-top:2rem;background-colorr:red"><div id="our_teams___" style="height:1px;width:1px"></div></div>
       <div id="our_team_heading">Our Team</div>
       <div class="swiper mySwiper" id="our_team_swiper_main_container">
         <div class="swiper-wrapper">
@@ -212,9 +261,6 @@
                   <div class="col-lg-6">
                     <div class="our_teams_image_container">
                       <img src="pictures/mia.png" class="img-fluid" />
-                      <!-- <div class="swiper_yellow_line"> -->
-                      <!-- <img src="pictures/yellow_line.png" class="img-fluid" /> -->
-                      <!-- </div> -->
                     </div>
                   </div>
                 </div>
@@ -434,6 +480,9 @@
         <div class="swiper-pagination"></div>
       </div>
 
+
+      
+
       <!-- Swiper JS -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -463,8 +512,8 @@
     </section>
 
     <section id="partnership_thesis">
-      <div id="partnership_top_part">
-        <img src="pictures/partnership_thesis_top_part.png" class="img-fluid" />
+      <div id="our_team_bottom_part">
+        <img src="pictures/our_team_bottom_part.png" class="img-fluid" />
       </div>
 
       <div id="partnership_heading">
@@ -514,6 +563,8 @@
         background-image: url('pictures/offer_background.png');
       "
     >
+    <div  style="padding-top:2rem;background-colorr:red"><div id="offer__" style="height:1px;width:1px"></div></div>
+
       <style>
       </style>
 
@@ -853,7 +904,8 @@
     </section>
 
     <section id="our_portfolio">
-     
+      <div  style="padding-top:2rem;background-colorr:red"><div id="our_portfolio__" style="height:1px;width:1px"></div></div>
+
 
       <div id="portfolio_heading">
         <span class="gradient-text">Our Portfolio</span>
@@ -1127,8 +1179,8 @@
     </section>
 
     <section id="tail" style="background-color: #f0f2f8">
-      <style>
-      </style>
+      <div  style="padding-top:2rem;background-colorr:red"><div id="tail__" style="height:1px;width:1px"></div></div>
+
       <div id="tail_space_correction"></div>
       <div class="tail_main_container">
         <div  id="tail_inner_div_1">
@@ -1246,14 +1298,14 @@
               </a>
             </div>
             <div id="tail_col_1" class="col-lg-3 tail_row_2">
-              <a id="tail_row_2_text_1">HOME</a>
-              <a class="tail_row_2_text">ABOUT US</a>
-              <a class="tail_row_2_text">PORTFOLIO</a>
+              <a href="#first" id="tail_row_2_text_1">HOME</a>
+              <a href="#first" class="tail_row_2_text">ABOUT US</a>
+              <a href="#first" class="tail_row_2_text">PORTFOLIO</a>
             </div>
             <div id="tail_col_2" class="col-lg-3 tail_row_2">
-              <a class="tail_row_2_text">PARTNERSHIP THESIS</a>
-              <a class="tail_row_2_text">SERVICES</a>
-              <a class="tail_row_2_text">CONTACT US</a>
+              <a href="#first" class="tail_row_2_text">PARTNERSHIP THESIS</a>
+              <a href="#first" class="tail_row_2_text">SERVICES</a>
+              <a href="#first" class="tail_row_2_text">CONTACT US</a>
             </div>
           </div>
         </div>
@@ -1297,5 +1349,7 @@
     });
     
     </script>
+    <script src="index.js"></script>
+
  </body>
 </html>
